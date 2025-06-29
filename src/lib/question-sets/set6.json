@@ -55,18 +55,18 @@
     "chapter": 3,
     "question": "What is a file pointer in C?",
     "options": [
-      "A pointer to a `FILE` structure that is used to identify a file.",
+      "A pointer to a FILE structure that is used to identify a file.",
       "A pointer to the beginning of a file.",
       "A pointer to the end of a file.",
       "A pointer to the current position in a file."
     ],
     "answer": "a",
-    "explanation": "The correct answer is <strong>a) A pointer to a `FILE` structure...</strong> The `FILE` structure contains information about the file, such as its name, status, and current position.",
+    "explanation": "The correct answer is <strong>a) A pointer to a FILE structure...</strong> The FILE structure contains information about the file, such as its name, status, and current position.",
     "marks": 1
   },
   {
     "chapter": 3,
-    "question": "What is the purpose of the `fprintf()` function in C?",
+    "question": "What is the purpose of the fprintf() function in C?",
     "options": [
       "To write formatted data to a file.",
       "To read formatted data from a file.",
@@ -74,7 +74,7 @@
       "To read a character from a file."
     ],
     "answer": "a",
-    "explanation": "The correct answer is <strong>a) To write formatted data to a file.</strong> The `fprintf()` function is similar to the `printf()` function, but it writes to a file instead of the console.",
+    "explanation": "The correct answer is <strong>a) To write formatted data to a file.</strong> The fprintf() function is similar to the printf() function, but it writes to a file instead of the console.",
     "marks": 1
   },
   {
@@ -292,7 +292,7 @@
       "void reverse(char *str) { int i, j; char temp; for (i = 0, j = strlen(str) - 1; i < j; i++, j--) { temp = str[i]; str[i] = str[j]; str[j] = temp; } }",
       "char* reverse(char *str) { return strrev(str); }",
       "void reverse(char *str) { int i; for (i = strlen(str) - 1; i >= 0; i--) printf(\"%c\", str[i]); }",
-      "char* reverse(char *str) { char *rev = malloc(strlen(str) + 1); int i, j; for (i = strlen(str) - 1, j = 0; i >= 0; i--, j++) rev[j] = str[i]; rev[j] = '\0'; return rev; }"
+      "char* reverse(char *str) { char *rev = malloc(strlen(str) + 1); int i, j; for (i = strlen(str) - 1, j = 0; i >= 0; i--, j++) rev[j] = str[i]; rev[j] = '\\0'; return rev; }"
     ],
     "answer": "a",
     "explanation": "The correct answer is <strong>a) void reverse(char *str) { ... }</strong>. This function reverses the string in place by swapping the characters from the beginning and end of the string until the pointers meet in the middle.",
