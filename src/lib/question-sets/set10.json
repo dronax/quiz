@@ -53,7 +53,7 @@
   },
   {
     "chapter": 3,
-    "question": "What is the purpose of the `strstr()` function in C?",
+    "question": "What is the purpose of the strstr() function in C?",
     "options": [
       "To find the first occurrence of a substring in a string.",
       "To find the last occurrence of a substring in a string.",
@@ -61,12 +61,12 @@
       "To find the last occurrence of a character in a string."
     ],
     "answer": "a",
-    "explanation": "The correct answer is <strong>a) To find the first occurrence of a substring in a string.</strong> The `strstr()` function returns a pointer to the first occurrence of the substring in the string, or a null pointer if the substring is not found.",
+    "explanation": "The correct answer is <strong>a) To find the first occurrence of a substring in a string.</strong> The strstr() function returns a pointer to the first occurrence of the substring in the string, or a null pointer if the substring is not found.",
     "marks": 1
   },
   {
     "chapter": 3,
-    "question": "What is the purpose of the `strrchr()` function in C?",
+    "question": "What is the purpose of the strrchr() function in C?",
     "options": [
       "To find the last occurrence of a character in a string.",
       "To find the first occurrence of a character in a string.",
@@ -74,7 +74,7 @@
       "To find the last occurrence of a substring in a string."
     ],
     "answer": "a",
-    "explanation": "The correct answer is <strong>a) To find the last occurrence of a character in a string.</strong> The `strrchr()` function returns a pointer to the last occurrence of the character in the string, or a null pointer if the character is not found.",
+    "explanation": "The correct answer is <strong>a) To find the last occurrence of a character in a string.</strong> The strrchr() function returns a pointer to the last occurrence of the character in the string, or a null pointer if the character is not found.",
     "marks": 1
   },
   {
@@ -295,7 +295,7 @@
       "Garbage Value"
     ],
     "answer": "a",
-    "explanation": "The correct answer is <strong>a) 10</strong>. `p` is a pointer to `x`, so `*p` is the value of `x` (10). `q` is a pointer to `p`, so `*q` is the value of `p` (the address of `x`). `**q` dereferences `*q`, which gives the value at the address stored in `p`, which is the value of `x` (10).",
+    "explanation": "The correct answer is <strong>a) 10</strong>. p is a pointer to x, so *p is the value of x (10). q is a pointer to p, so *q is the value of p (the address of x). **q dereferences *q, which gives the value at the address stored in p, which is the value of x (10).",
     "marks": 2
   },
   {
@@ -380,13 +380,13 @@
     "chapter": 10,
     "question": "A project has a planned value (PV) of $100,000, an earned value (EV) of $90,000, and an actual cost (AC) of $80,000. What is the estimate to complete (ETC) if the current CPI is expected to continue?",
     "options": [
-      "$11,111.11",
+      "$8,888.89",
       "$20,000",
       "$10,000",
       "$30,000"
     ],
     "answer": "a",
-    "explanation": "The correct answer is <strong>a) $11,111.11</strong>. The estimate to complete (ETC) is calculated as ETC = (BAC - EV) / CPI, where BAC is the budget at completion. In this case, BAC = $100,000. The CPI = EV / AC = $90,000 / $80,000 = 1.125. So, ETC = ($100,000 - $90,000) / 1.125 = $10,000 / 1.125 = $8,888.89.  The provided answer is incorrect. I will correct the question or the answer.",
+    "explanation": "The correct answer is <strong>a) $8,888.89</strong>. The estimate to complete (ETC) is calculated as ETC = (BAC - EV) / CPI, where BAC is the budget at completion. In this case, BAC = $100,000. The CPI = EV / AC = $90,000 / $80,000 = 1.125. So, ETC = ($100,000 - $90,000) / 1.125 = $10,000 / 1.125 = $8,888.89.",
     "marks": 2
   }
 ]

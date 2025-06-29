@@ -53,7 +53,7 @@
   },
   {
     "chapter": 3,
-    "question": "What is the purpose of the `continue` statement in C?",
+    "question": "What is the purpose of the continue statement in C?",
     "options": [
       "To skip the current iteration of a loop and continue with the next iteration.",
       "To terminate a loop or switch statement.",
@@ -61,7 +61,7 @@
       "To exit the program."
     ],
     "answer": "a",
-    "explanation": "The correct answer is <strong>a) To skip the current iteration of a loop...</strong> The `continue` statement is used inside `for`, `while`, and `do-while` loops.",
+    "explanation": "The correct answer is <strong>a) To skip the current iteration of a loop...</strong> The continue statement is used inside for, while, and do-while loops.",
     "marks": 1
   },
   {
@@ -321,7 +321,7 @@
       "To browse the web."
     ],
     "answer": "a",
-    "explanation": "The correct answer is <strong>a) To send error messages...</strong> The Internet Control Message Protocol (ICMP) is used by network devices, like routers, to send error messages and operational information. For example, the `ping` command uses ICMP to test the connectivity between two devices.",
+    "explanation": "The correct answer is <strong>a) To send error messages...</strong> The Internet Control Message Protocol (ICMP) is used by network devices, like routers, to send error messages and operational information. For example, the ping command uses ICMP to test the connectivity between two devices.",
     "marks": 2
   },
   {

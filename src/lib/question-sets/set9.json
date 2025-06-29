@@ -1,4 +1,4 @@
-[  {    "chapter": 1,    "question": "What is an ideal voltage source?",    "options": [      "A voltage source that has zero internal resistance.",      "A voltage source that has infinite internal resistance.",      "A voltage source that has a constant voltage.",      "A voltage source that has a constant current."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) A voltage source that has zero internal resistance.</strong> An ideal voltage source can provide a constant voltage regardless of the current drawn from it.",    "marks": 1  },  {    "chapter": 1,    "question": "What is an ideal current source?",    "options": [      "A current source that has infinite internal resistance.",      "A current source that has zero internal resistance.",      "A current source that has a constant voltage.",      "A current source that has a constant current."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) A current source that has infinite internal resistance.</strong> An ideal current source can provide a constant current regardless of the voltage across it.",    "marks": 1  },  {    "chapter": 2,    "question": "What is a race condition in a sequential logic circuit?",    "options": [      "A situation where the output of the circuit depends on the sequence or timing of other events.",      "A situation where the circuit is in an undefined state.",      "A situation where the circuit is oscillating.",      "A situation where the circuit is not working properly."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) A situation where the output of the circuit depends on the sequence or timing of other events.</strong> Race conditions can cause unpredictable behavior in sequential circuits.",    "marks": 1  },  {    "chapter": 2,    "question": "What is a hazard in a sequential logic circuit?",    "options": [      "A situation where a change in the input of a circuit can cause a temporary, incorrect output.",      "A situation where the circuit is in an undefined state.",      "A situation where the circuit is oscillating.",      "A situation where the circuit is not working properly."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) A situation where a change in the input of a circuit can cause a temporary, incorrect output.</strong> Hazards can be eliminated by adding redundant logic to the circuit.",    "marks": 1  },  {    "chapter": 3,    "question": "What is the purpose of the `strcmp()` function in C?",    "options": [      "To compare two strings.",      "To copy a string.",      "To concatenate two strings.",      "To find the length of a string."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) To compare two strings.</strong> The `strcmp()` function returns 0 if the two strings are equal, a negative value if the first string is less than the second string, and a positive value if the first string is greater than the second string.",    "marks": 1  },  {    "chapter": 3,    "question": "What is the purpose of the `strchr()` function in C?",    "options": [      "To find the first occurrence of a character in a string.",      "To find the last occurrence of a character in a string.",      "To find the first occurrence of a substring in a string.",      "To find the last occurrence of a substring in a string."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) To find the first occurrence of a character in a string.</strong> The `strchr()` function returns a pointer to the first occurrence of the character in the string, or a null pointer if the character is not found.",    "marks": 1  },  {    "chapter": 4,    "question": "What is a pipeline hazard?",    "options": [      "A situation that prevents the next instruction in the instruction stream from executing during its designated clock cycle.",      "A situation where the pipeline is empty.",      "A situation where the pipeline is full.",      "A situation where the pipeline is not working properly."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) A situation that prevents the next instruction...</strong> There are three types of pipeline hazards: structural hazards, data hazards, and control hazards.",    "marks": 1  },  {    "chapter": 4,    "question": "What is a data hazard?",    "options": [      "A situation where an instruction depends on the result of a previous instruction that is still in the pipeline.",      "A situation where two instructions try to access the same resource at the same time.",      "A situation where the pipeline has to be flushed because of a branch instruction.",      "A situation where the pipeline is not working properly."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) A situation where an instruction depends on the result of a previous instruction...</strong> Data hazards can be resolved by forwarding or stalling.",    "marks": 1  },  {    "chapter": 5,    "question": "What is a virtual private network (VPN)?",    "options": [      "A technology that creates a safe and encrypted connection over a less secure network, such as the internet.",      "A type of local area network.",      "A type of wide area network.",      "A type of personal area network."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) A technology that creates a safe and encrypted connection...</strong> VPNs are used to protect online privacy and security.",    "marks": 1  },  {    "chapter": 5,    "question": "What is an intranet?",    "options": [      "A private network that is accessible only to an organization's staff.",      "A public network that is accessible to anyone.",      "A network that connects two or more intranets.",      "A network that is not connected to the Internet."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) A private network that is accessible only to an organization's staff.</strong> Intranets are used to share information and resources within an organization.",    "marks": 1  },  {    "chapter": 6,    "question": "What is the halting problem?",    "options": [      "The problem of determining, from a description of an arbitrary computer program and an input, whether the program will finish running or continue to run forever.",      "The problem of determining if a language is decidable.",      "The problem of determining if a language is recognizable.",      "The problem of determining if a language is regular."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) The problem of determining, from a description of an arbitrary computer program...</strong> The halting problem is undecidable, which means that there is no algorithm that can solve it for all possible inputs.",    "marks": 1  },  {    "chapter": 6,    "question": "What is the Church-Turing thesis?",    "options": [      "The thesis that any function that can be computed by an algorithm can be computed by a Turing machine.",      "The thesis that any function that can be computed by a Turing machine can be computed by an algorithm.",      "The thesis that any function that can be computed by a computer can be computed by a Turing machine.",      "The thesis that any function that can be computed by a Turing machine can be computed by a computer."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) The thesis that any function that can be computed by an algorithm...</strong> The Church-Turing thesis is a fundamental principle of computer science.",    "marks": 1  },  {    "chapter": 7,    "question": "What is a degenerate tree?",    "options": [      "A tree in which each parent node has only one child node.",      "A tree in which each parent node has two child nodes.",      "A tree in which each parent node has no child nodes.",      "A tree in which each parent node has more than two child nodes."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) A tree in which each parent node has only one child node.</strong> A degenerate tree is equivalent to a linked list.",    "marks": 1  },  {    "chapter": 7,    "question": "What is a threaded binary tree?",    "options": [      "A binary tree in which all right null pointers are replaced by pointers to the inorder successor of the node, and all left null pointers are replaced by pointers to the inorder predecessor of the node.",      "A binary tree in which all right null pointers are replaced by pointers to the preorder successor of the node, and all left null pointers are replaced by pointers to the preorder predecessor of the node.",      "A binary tree in which all right null pointers are replaced by pointers to the postorder successor of the node, and all left null pointers are replaced by pointers to the postorder predecessor of the node.",      "A binary tree in which all null pointers are replaced by pointers to the root of the tree."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) A binary tree in which all right null pointers are replaced by pointers to the inorder successor...</strong> Threaded binary trees make it possible to traverse the tree in inorder without using recursion or a stack.",    "marks": 1  },  {    "chapter": 8,    "question": "What is a software process model?",    "options": [      "A simplified representation of a software process.",      "A specific software development methodology.",      "A way of writing code.",      "A way of testing software."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) A simplified representation of a software process.</strong> Software process models, such as the waterfall model and the spiral model, provide a framework for the software development process.",    "marks": 1  },  {    "chapter": 8,    "question": "What is the spiral model?",    "options": [      "A risk-driven software development process model.",      "A sequential software development process model.",      "An iterative software development process model.",      "An agile software development process model."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) A risk-driven software development process model.</strong> The spiral model is a combination of the waterfall model and the prototype model. It is used for large, complex, and high-risk projects.",    "marks": 1  },  {    "chapter": 9,    "question": "What is an initial state in a search problem?",    "options": [      "The state from which the search starts.",      "The state at which the search ends.",      "A state that is on the path to the goal state.",      "A state that is not on the path to the goal state."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) The state from which the search starts.</strong> The initial state is the starting point of the search.",    "marks": 1  },  {    "chapter": 9,    "question": "What is a goal state in a search problem?",    "options": [      "A state that satisfies the goal test.",      "The state from which the search starts.",      "A state that is on the path to the goal state.",      "A state that is not on the path to the goal state."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) A state that satisfies the goal test.</strong> The search algorithm tries to find a path from the initial state to a goal state.",    "marks": 1  },  {    "chapter": 10,    "question": "What is a project assumption?",    "options": [      "A factor that is considered to be true, real, or certain without proof or demonstration.",      "A task in a project.",      "A stakeholder in a project.",      "A deliverable of a project."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) A factor that is considered to be true, real, or certain...</strong> Assumptions are made to simplify the planning process, but they should be documented and validated.",    "marks": 1  },  {    "chapter": 10,    "question": "What is a project constraint?",    "options": [      "A limitation or restriction on the project.",      "A task in a project.",      "A stakeholder in a project.",      "A deliverable of a project."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) A limitation or restriction on the project.</strong> Constraints can be related to scope, time, cost, quality, resources, or other factors.",    "marks": 1  },  {    "chapter": 1,    "question": "A 100μF capacitor is connected to a 50Hz AC source. What is the capacitive reactance?",    "options": [      "31.83Ω",      "3.183Ω",      "318.3Ω",      "3183Ω"    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) 31.83Ω</strong>. The capacitive reactance is given by the formula XC = 1 / (2πfC), where f is the frequency and C is the capacitance. So, XC = 1 / (2π * 50Hz * 100 * 10^-6F) = 1 / (2π * 0.005) = 1 / 0.0314159 = 31.83Ω.",    "marks": 2  },  {    "chapter": 2,    "question": "What is the output of a 4-bit ripple counter after 5 clock pulses, if it starts from 0000?",    "options": [      "0101",      "0010",      "0011",      "0100"    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) 0101</strong>. A 4-bit ripple counter counts in binary. Starting from 0000, after 5 clock pulses, it will count to 5, which is 0101 in binary.",    "marks": 2  },  {    "chapter": 3,    "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n   int x = 10;\n   int *p = &x;\n   int **q = &p;\n   printf(\"%d\", **q);\n   return 0;\n}",    "options": [      "10",      "Address of x",      "Address of p",      "Garbage Value"    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) 10</strong>. `p` is a pointer to `x`, so `*p` is the value of `x` (10). `q` is a pointer to `p`, so `*q` is the value of `p` (the address of `x`). `**q` dereferences `*q`, which gives the value at the address stored in `p`, which is the value of `x` (10).",    "marks": 2  },  {    "chapter": 4,    "question": "Explain the concept of virtual memory.",    "options": [      "A memory management technique that provides an idealized abstraction of the storage resources that are actually available on a given machine.",      "A type of physical memory.",      "A memory that is not real.",      "A memory used by virtual machines."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) A memory management technique that provides an idealized abstraction of the storage resources that are actually available on a given machine.</strong> Virtual memory allows a computer to compensate for shortages of physical memory by temporarily transferring pages of data from RAM to disk storage. This allows a program to use more memory than is physically available.",    "marks": 2  },  {    "chapter": 5,    "question": "What is the purpose of the DHCP protocol?",    "options": [      "To dynamically assign IP addresses to devices on a network.",      "To resolve domain names to IP addresses.",      "To transfer files between computers.",      "To send emails."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) To dynamically assign IP addresses to devices on a network.</strong> DHCP (Dynamic Host Configuration Protocol) automates the assignment of IP addresses, subnet masks, default gateways, and other network configuration parameters.",    "marks": 2  },  {    "chapter": 6,    "question": "What is the difference between a parse tree and a derivation tree?",    "options": [      "There is no difference.",      "A parse tree shows the syntactic structure of a string according to a grammar, while a derivation tree shows the sequence of production rules applied to derive a string.",      "A derivation tree shows the syntactic structure of a string according to a grammar, while a parse tree shows the sequence of production rules applied to derive a string.",      "A parse tree is used in top-down parsing, while a derivation tree is used in bottom-up parsing."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) There is no difference.</strong> The terms parse tree and derivation tree are often used interchangeably. Both represent the syntactic structure of a string according to a context-free grammar.",    "marks": 2  },  {    "chapter": 7,    "question": "What is the time complexity of deleting an element from a binary search tree?",    "options": [      "O(log n) on average, O(n) in the worst case",      "O(n) on average, O(log n) in the worst case",      "O(1) on average, O(n) in the worst case",      "O(n) on average, O(1) in the worst case"    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) O(log n) on average, O(n) in the worst case</strong>. On average, deleting an element from a binary search tree takes logarithmic time. However, in the worst case, when the tree is unbalanced, it can take linear time.",    "marks": 2  },  {    "chapter": 8,    "question": "What is the purpose of a software architecture document?",    "options": [      "To describe the high-level structure of a software system, including its components, their relationships, and the principles guiding its design and evolution.",      "To describe the detailed design of a software system.",      "To describe the functional and non-functional requirements of a software system.",      "To describe the implementation of a software system."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) To describe the high-level structure of a software system...</strong> The software architecture document is a key artifact in the software development process.",    "marks": 2  },  {    "chapter": 9,    "question": "What is the difference between a breadth-first search and a depth-first search?",    "options": [      "Breadth-first search explores all the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level, while depth-first search explores as far as possible along each branch before backtracking.",      "Depth-first search explores all the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level, while breadth-first search explores as far as possible along each branch before backtracking.",      "Breadth-first search is always optimal, while depth-first search is not.",      "There is no difference."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) Breadth-first search explores all the neighbor nodes at the present depth...</strong> Breadth-first search uses a queue, while depth-first search uses a stack.",    "marks": 2  },  {    "chapter": 10,    "question": "A project has a planned value (PV) of $100,000, an earned value (EV) of $90,000, and an actual cost (AC) of $80,000. What is the estimate to complete (ETC) if the current CPI is expected to continue?",    "options": [      "$11,111.11",      "$20,000",      "$10,000",      "$30,000"    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) $11,111.11</strong>. The estimate to complete (ETC) is calculated as ETC = (BAC - EV) / CPI, where BAC is the budget at completion. In this case, BAC = $100,000. The CPI = EV / AC = $90,000 / $80,000 = 1.125. So, ETC = ($100,000 - $90,000) / 1.125 = $10,000 / 1.125 = $8,888.89.  The provided answer is incorrect. I will correct the question or the answer.",    "marks": 2  }]}][
+[
   {
     "chapter": 1,
     "question": "What is an ideal voltage source?",
@@ -53,7 +53,7 @@
   },
   {
     "chapter": 3,
-    "question": "What is the purpose of the `strcmp()` function in C?",
+    "question": "What is the purpose of the strcmp() function in C?",
     "options": [
       "To compare two strings.",
       "To copy a string.",
@@ -61,12 +61,12 @@
       "To find the length of a string."
     ],
     "answer": "a",
-    "explanation": "The correct answer is <strong>a) To compare two strings.</strong> The `strcmp()` function returns 0 if the two strings are equal, a negative value if the first string is less than the second string, and a positive value if the first string is greater than the second string.",
+    "explanation": "The correct answer is <strong>a) To compare two strings.</strong> The strcmp() function returns 0 if the two strings are equal, a negative value if the first string is less than the second string, and a positive value if the first string is greater than the second string.",
     "marks": 1
   },
   {
     "chapter": 3,
-    "question": "What is the purpose of the `strchr()` function in C?",
+    "question": "What is the purpose of the strchr() function in C?",
     "options": [
       "To find the first occurrence of a character in a string.",
       "To find the last occurrence of a character in a string.",
@@ -74,7 +74,7 @@
       "To find the last occurrence of a substring in a string."
     ],
     "answer": "a",
-    "explanation": "The correct answer is <strong>a) To find the first occurrence of a character in a string.</strong> The `strchr()` function returns a pointer to the first occurrence of the character in the string, or a null pointer if the character is not found.",
+    "explanation": "The correct answer is <strong>a) To find the first occurrence of a character in a string.</strong> The strchr() function returns a pointer to the first occurrence of the character in the string, or a null pointer if the character is not found.",
     "marks": 1
   },
   {
@@ -260,38 +260,133 @@
     "marks": 1
   },
   {
-    "chapter": 1,    "question": "A 100μF capacitor is connected to a 50Hz AC source. What is the capacitive reactance?",    "options": [      "31.83Ω",      "3.183Ω",      "318.3Ω",      "3183Ω"    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) 31.83Ω</strong>. The capacitive reactance is given by the formula XC = 1 / (2πfC), where f is the frequency and C is the capacitance. So, XC = 1 / (2π * 50Hz * 100 * 10^-6F) = 1 / (2π * 0.005) = 1 / 0.0314159 = 31.83Ω.",    "marks": 2  },
+    "chapter": 1,
+    "question": "A 100μF capacitor is connected to a 50Hz AC source. What is the capacitive reactance?",
+    "options": [
+      "31.83Ω",
+      "3.183Ω",
+      "318.3Ω",
+      "3183Ω"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 31.83Ω</strong>. The capacitive reactance is given by the formula XC = 1 / (2πfC), where f is the frequency and C is the capacitance. So, XC = 1 / (2π * 50Hz * 100 * 10^-6F) = 1 / (2π * 0.005) = 1 / 0.0314159 = 31.83Ω.",
+    "marks": 2
+  },
   {
-    "chapter": 2,    "question": "What is the output of a 4-bit ripple counter after 5 clock pulses, if it starts from 0000?",    "options": [      "0101",      "0010",      "0011",      "0100"    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) 0101</strong>. A 4-bit ripple counter counts in binary. Starting from 0000, after 5 clock pulses, it will count to 5, which is 0101 in binary.",    "marks": 2  },
+    "chapter": 2,
+    "question": "What is the output of a 4-bit ripple counter after 5 clock pulses, if it starts from 0000?",
+    "options": [
+      "0101",
+      "0010",
+      "0011",
+      "0100"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 0101</strong>. A 4-bit ripple counter counts in binary. Starting from 0000, after 5 clock pulses, it will count to 5, which is 0101 in binary.",
+    "marks": 2
+  },
   {
-    "chapter": 3,    "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n   int x = 10;\n   int *p = &x;\n   int **q = &p;\n   printf(\"%d\", **q);\n   return 0;\n}",    "options": [      "10",      "Address of x",      "Address of p",      "Garbage Value"    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) 10</strong>. `p` is a pointer to `x`, so `*p` is the value of `x` (10). `q` is a pointer to `p`, so `*q` is the value of `p` (the address of `x`). `**q` dereferences `*q`, which gives the value at the address stored in `p`, which is the value of `x` (10).",    "marks": 2  },
+    "chapter": 3,
+    "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n   int x = 10;\n   int *p = &x;\n   int **q = &p;\n   printf(\"%d\", **q);\n   return 0;\n}",
+    "options": [
+      "10",
+      "Address of x",
+      "Address of p",
+      "Garbage Value"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 10</strong>. p is a pointer to x, so *p is the value of x (10). q is a pointer to p, so *q is the value of p (the address of x). **q dereferences *q, which gives the value at the address stored in p, which is the value of x (10).",
+    "marks": 2
+  },
   {
-    "chapter": 4,    "question": "Explain the concept of virtual memory.",    "options": [      "A memory management technique that provides an idealized abstraction of the storage resources that are actually available on a given machine.",      "A type of physical memory.",      "A memory that is not real.",      "A memory used by virtual machines."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) A memory management technique that provides an idealized abstraction of the storage resources that are actually available on a given machine.</strong> Virtual memory allows a computer to compensate for shortages of physical memory by temporarily transferring pages of data from RAM to disk storage. This allows a program to use more memory than is physically available.",    "marks": 2  },
+    "chapter": 4,
+    "question": "Explain the concept of virtual memory.",
+    "options": [
+      "A memory management technique that provides an idealized abstraction of the storage resources that are actually available on a given machine.",
+      "A type of physical memory.",
+      "A memory that is not real.",
+      "A memory used by virtual machines."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A memory management technique that provides an idealized abstraction of the storage resources that are actually available on a given machine.</strong> Virtual memory allows a computer to compensate for shortages of physical memory by temporarily transferring pages of data from RAM to disk storage. This allows a program to use more memory than is physically available.",
+    "marks": 2
+  },
   {
-    "chapter": 5,    "question": "What is the purpose of the DHCP protocol?",    "options": [      "To dynamically assign IP addresses to devices on a network.",      "To resolve domain names to IP addresses.",      "To transfer files between computers.",      "To send emails."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) To dynamically assign IP addresses to devices on a network.</strong> DHCP (Dynamic Host Configuration Protocol) automates the assignment of IP addresses, subnet masks, default gateways, and other network configuration parameters.",
-    "marks": 2  },
+    "chapter": 5,
+    "question": "What is the purpose of the DHCP protocol?",
+    "options": [
+      "To dynamically assign IP addresses to devices on a network.",
+      "To resolve domain names to IP addresses.",
+      "To transfer files between computers.",
+      "To send emails."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To dynamically assign IP addresses to devices on a network.</strong> DHCP (Dynamic Host Configuration Protocol) automates the assignment of IP addresses, subnet masks, default gateways, and other network configuration parameters.",
+    "marks": 2
+  },
   {
-    "chapter": 6,    "question": "What is the difference between a parse tree and a derivation tree?",    "options": [      "There is no difference.",      "A parse tree shows the syntactic structure of a string according to a grammar, while a derivation tree shows the sequence of production rules applied to derive a string.",      "A derivation tree shows the syntactic structure of a string according to a grammar, while a parse tree shows the sequence of production rules applied to derive a string.",      "A parse tree is used in top-down parsing, while a derivation tree is used in bottom-up parsing."    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) There is no difference.</strong> The terms parse tree and derivation tree are often used interchangeably. Both represent the syntactic structure of a string according to a context-free grammar.",    "marks": 2  },
+    "chapter": 6,
+    "question": "What is the difference between a parse tree and a derivation tree?",
+    "options": [
+      "There is no difference.",
+      "A parse tree shows the syntactic structure of a string according to a grammar, while a derivation tree shows the sequence of production rules applied to derive a string.",
+      "A derivation tree shows the syntactic structure of a string according to a grammar, while a parse tree shows the sequence of production rules applied to derive a string.",
+      "A parse tree is used in top-down parsing, while a derivation tree is used in bottom-up parsing."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) There is no difference.</strong> The terms parse tree and derivation tree are often used interchangeably. Both represent the syntactic structure of a string according to a context-free grammar.",
+    "marks": 2
+  },
   {
-    "chapter": 7,    "question": "What is the time complexity of deleting an element from a binary search tree?",    "options": [      "O(log n) on average, O(n) in the worst case",      "O(n) on average, O(log n) in the worst case",      "O(1) on average, O(n) in the worst case",      "O(n) on average, O(1) in the worst case"    ],    "answer": "a",    "explanation": "The correct answer is <strong>a) O(log n) on average, O(n) in the worst case</strong>. On average, deleting an element from a binary search tree takes logarithmic time. However, in the worst case, when the tree is unbalanced, it can take linear time.",    "marks": 2  },
+    "chapter": 7,
+    "question": "What is the time complexity of deleting an element from a binary search tree?",
+    "options": [
+      "O(log n) on average, O(n) in the worst case",
+      "O(n) on average, O(log n) in the worst case",
+      "O(1) on average, O(n) in the worst case",
+      "O(n) on average, O(1) in the worst case"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) O(log n) on average, O(n) in the worst case</strong>. On average, deleting an element from a binary search tree takes logarithmic time. However, in the worst case, when the tree is unbalanced, it can take linear time.",
+    "marks": 2
+  },
   {
-    "chapter": 8,    "question": "What is the purpose of a software architecture document?",    "options": [      "To describe the high-level structure of a software system, including its components, their relationships, and the principles guiding its design and evolution.",      "To describe the detailed design of a software system.",      "To describe the functional and non-functional requirements of a software system.",      "To describe the implementation of a software system."
+    "chapter": 8,
+    "question": "What is the purpose of a software architecture document?",
+    "options": [
+      "To describe the high-level structure of a software system, including its components, their relationships, and the principles guiding its design and evolution.",
+      "To describe the detailed design of a software system.",
+      "To describe the functional and non-functional requirements of a software system.",
+      "To describe the implementation of a software system."
     ],
     "answer": "a",
     "explanation": "The correct answer is <strong>a) To describe the high-level structure of a software system...</strong> The software architecture document is a key artifact in the software development process.",
-    "marks": 2  },
+    "marks": 2
+  },
   {
-    "chapter": 9,    "question": "What is the difference between a breadth-first search and a depth-first search?",
-    "options": [      "Breadth-first search explores all the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level, while depth-first search explores as far as possible along each branch before backtracking.",      "Depth-first search explores all the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level, while breadth-first search explores as far as possible along each branch before backtracking.",      "Breadth-first search is always optimal, while depth-first search is not.",      "There is no difference."
+    "chapter": 9,
+    "question": "What is the difference between a breadth-first search and a depth-first search?",
+    "options": [
+      "Breadth-first search explores all the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level, while depth-first search explores as far as possible along each branch before backtracking.",
+      "Depth-first search explores all the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level, while breadth-first search explores as far as possible along each branch before backtracking.",
+      "Breadth-first search is always optimal, while depth-first search is not.",
+      "There is no difference."
     ],
     "answer": "a",
     "explanation": "The correct answer is <strong>a) Breadth-first search explores all the neighbor nodes at the present depth...</strong> Breadth-first search uses a queue, while depth-first search uses a stack.",
-    "marks": 2  },
+    "marks": 2
+  },
   {
     "chapter": 10,
     "question": "A project has a planned value (PV) of $100,000, an earned value (EV) of $90,000, and an actual cost (AC) of $80,000. What is the estimate to complete (ETC) if the current CPI is expected to continue?",
-    "options": [      "$11,111.11",      "$20,000",      "$10,000",      "$30,000"    ],
+    "options": [
+      "$8,888.89",
+      "$20,000",
+      "$10,000",
+      "$30,000"
+    ],
     "answer": "a",
-    "explanation": "The correct answer is <strong>a) $11,111.11</strong>. The estimate to complete (ETC) is calculated as ETC = (BAC - EV) / CPI, where BAC is the budget at completion. In this case, BAC = $100,000. The CPI = EV / AC = $90,000 / $80,000 = 1.125. So, ETC = ($100,000 - $90,000) / 1.125 = $10,000 / 1.125 = $8,888.89.  The provided answer is incorrect. I will correct the question or the answer.",
-    "marks": 2  }
+    "explanation": "The correct answer is <strong>a) $8,888.89</strong>. The estimate to complete (ETC) is calculated as ETC = (BAC - EV) / CPI, where BAC is the budget at completion. In this case, BAC = $100,000. The CPI = EV / AC = $90,000 / $80,000 = 1.125. So, ETC = ($100,000 - $90,000) / 1.125 = $10,000 / 1.125 = $8,888.89.",
+    "marks": 2
+  }
 ]

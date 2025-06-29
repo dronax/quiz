@@ -53,15 +53,15 @@
   },
   {
     "chapter": 3,
-    "question": "What is the difference between `gets()` and `fgets()` in C?",
+    "question": "What is the difference between gets() and fgets() in C?",
     "options": [
-      "`fgets()` is safer because it can be told the size of the buffer to read into, preventing buffer overflows.",
-      "`gets()` is safer because it automatically null-terminates the string.",
-      "`fgets()` can only read from files, while `gets()` can only read from standard input.",
+      "fgets() is safer because it can be told the size of the buffer to read into, preventing buffer overflows.",
+      "gets() is safer because it automatically null-terminates the string.",
+      "fgets() can only read from files, while gets() can only read from standard input.",
       "There is no difference."
     ],
     "answer": "a",
-    "explanation": "The correct answer is <strong>a) `fgets()` is safer...</strong> The `gets()` function is inherently unsafe because it does not perform bounds checking and can lead to buffer overflows. It is recommended to use `fgets()` instead.",
+    "explanation": "The correct answer is <strong>a) fgets() is safer...</strong> The gets() function is inherently unsafe because it does not perform bounds checking and can lead to buffer overflows. It is recommended to use fgets() instead.",
     "marks": 1
   },
   {
