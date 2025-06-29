@@ -280,10 +280,10 @@
 
   .progress-text {
     font-size: 0.875rem;
-    color: var(--text-secondary);
+    color: var(--text-primary);
     margin-bottom: 0.5rem;
     display: block;
-    font-weight: 500;
+    font-weight: 600;
   }
 
   .progress-bar {
@@ -292,6 +292,7 @@
     background: var(--bg-tertiary);
     border-radius: 4px;
     overflow: hidden;
+    border: 1px solid var(--border-color);
   }
 
   .progress-fill {
@@ -314,11 +315,13 @@
   .timer.warning {
     border-color: var(--warning-color);
     background: #fef3c7;
+    color: #92400e;
   }
 
   .timer.critical {
     border-color: var(--error-color);
     background: #fee2e2;
+    color: #991b1b;
     animation: pulse 1s infinite;
   }
 
@@ -335,14 +338,13 @@
   .time {
     font-size: 1.25rem;
     font-weight: 700;
-    color: var(--text-primary);
     font-family: 'Courier New', monospace;
   }
 
   .timer-label {
     font-size: 0.75rem;
-    color: var(--text-secondary);
     font-weight: 500;
+    opacity: 0.8;
   }
 
   .question-card {
@@ -359,7 +361,7 @@
 
   .question-number {
     font-size: 0.875rem;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--primary-color);
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -368,7 +370,7 @@
 
   .question-text {
     font-size: 1.375rem;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--text-primary);
     line-height: 1.6;
     margin-bottom: 1.25rem;
@@ -386,19 +388,20 @@
     padding: 0.375rem 0.875rem;
     border-radius: var(--radius-sm);
     font-size: 0.75rem;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
   }
 
   .chapter-badge {
-    background: var(--primary-light);
-    color: var(--primary-color);
+    background: var(--primary-color);
+    color: white;
   }
 
   .marks-badge {
     background: var(--bg-tertiary);
-    color: var(--text-secondary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
   }
 
   .options-container {
@@ -407,7 +410,7 @@
 
   .options-title {
     font-size: 1.125rem;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--text-primary);
     margin-bottom: 1.5rem;
     text-align: left;
@@ -460,11 +463,13 @@
     font-size: 1rem;
     flex-shrink: 0;
     color: var(--text-primary);
+    border: 2px solid var(--border-color);
   }
 
   .option-btn.selected .option-letter {
     background: rgba(255, 255, 255, 0.2);
     color: white;
+    border-color: rgba(255, 255, 255, 0.3);
   }
 
   .option-content {
@@ -475,10 +480,14 @@
   .option-text {
     font-size: 1.125rem;
     line-height: 1.6;
-    color: inherit;
-    font-weight: 500;
+    font-weight: 600;
     display: block;
     word-wrap: break-word;
+    color: var(--text-primary);
+  }
+
+  .option-btn.selected .option-text {
+    color: white;
   }
 
   .option-indicator {
@@ -530,7 +539,7 @@
 
   .explanation-header h3 {
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--text-primary);
   }
 
@@ -538,11 +547,12 @@
     color: var(--text-primary);
     line-height: 1.7;
     font-size: 1rem;
+    font-weight: 500;
   }
 
   .explanation-content :global(strong) {
     color: var(--primary-color);
-    font-weight: 600;
+    font-weight: 700;
   }
 
   .quiz-results {
@@ -571,6 +581,7 @@
   .results-subtitle {
     color: var(--text-secondary);
     font-size: 1rem;
+    font-weight: 500;
   }
 
   .score-display {
@@ -603,7 +614,8 @@
 
   .score-label {
     font-size: 1rem;
-    color: var(--text-secondary);
+    color: var(--text-primary);
+    font-weight: 600;
   }
 
   .quiz-stats {
@@ -620,6 +632,7 @@
     padding: 1rem;
     background: var(--bg-secondary);
     border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
   }
 
   .stat-value {
@@ -630,8 +643,9 @@
 
   .stat-label {
     font-size: 0.875rem;
-    color: var(--text-secondary);
+    color: var(--text-primary);
     margin-top: 0.25rem;
+    font-weight: 600;
   }
 
   .loading-container {
@@ -651,6 +665,12 @@
     border-radius: 50%;
     animation: spin 1s linear infinite;
     margin-bottom: 1rem;
+  }
+
+  .loading-container p {
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 1.125rem;
   }
 
   @keyframes spin {
