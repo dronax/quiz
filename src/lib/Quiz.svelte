@@ -93,10 +93,12 @@
       return selectedAnswer === optionLetter ? 'selected' : '';
     }
     
-    // After submission - show green for correct, red for incorrect
+    // After submission - ALWAYS show green for correct answer
     if (optionLetter === correctAnswer) {
       return 'correct';
-    } else if (selectedAnswer === optionLetter && optionLetter !== correctAnswer) {
+    } 
+    // Show red only for the incorrect option that was selected
+    else if (selectedAnswer === optionLetter && optionLetter !== correctAnswer) {
       return 'incorrect';
     }
     return '';
@@ -475,12 +477,12 @@
     box-shadow: var(--shadow-lg);
   }
 
-  /* Correct answer (after submission) - Green background */
+  /* Correct answer (after submission) - GREEN BACKGROUND ALWAYS */
   .option-btn.correct {
-    border-color: var(--correct-border);
-    background: var(--correct-bg);
-    color: var(--correct-color);
-    box-shadow: 0 4px 12px rgba(22, 163, 74, 0.3);
+    border-color: var(--correct-border) !important;
+    background: var(--correct-bg) !important;
+    color: var(--correct-color) !important;
+    box-shadow: 0 4px 12px rgba(22, 163, 74, 0.3) !important;
   }
 
   /* Incorrect answer (after submission) - Red background */
