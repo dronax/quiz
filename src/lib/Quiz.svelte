@@ -19,6 +19,8 @@
   $: seconds = timeRemaining % 60;
   $: isTimeRunningOut = timeRemaining <= 300; // Last 5 minutes
   $: isCriticalTime = timeRemaining <= 60; // Last minute
+  $: correctAnswer = questions[currentQuestionIndex]?.answer;
+  $: isCorrect = selectedAnswer === correctAnswer;
 
   onMount(async () => {
     const response = await fetch(`/src/lib/question-sets/set${setNumber}.json`);
@@ -83,6 +85,20 @@
 
   function formatTime(time) {
     return time.toString().padStart(2, '0');
+  }
+
+  function getOptionClass(optionLetter) {
+    if (!showExplanation) {
+      return selectedAnswer === optionLetter ? 'selected' : '';
+    }
+    
+    // After submission, show correct/incorrect colors
+    if (optionLetter === correctAnswer) {
+      return 'correct';
+    } else if (selectedAnswer === optionLetter && optionLetter !== correctAnswer) {
+      return 'incorrect';
+    }
+    return '';
   }
 </script>
 
@@ -172,7 +188,7 @@
         <h3 class="options-title">Choose your answer:</h3>
         {#each questions[currentQuestionIndex].options as option, i}
           <button
-            class="option-btn {selectedAnswer === String.fromCharCode(97 + i) ? 'selected' : ''}"
+            class="option-btn {getOptionClass(String.fromCharCode(97 + i))}"
             on:click={() => selectAnswer(String.fromCharCode(97 + i))}
             disabled={showExplanation}
           >
@@ -181,7 +197,15 @@
               <span class="option-text">{option}</span>
             </div>
             <div class="option-indicator">
-              {#if selectedAnswer === String.fromCharCode(97 + i)}
+              {#if showExplanation && String.fromCharCode(97 + i) === correctAnswer}
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                </svg>
+              {:else if showExplanation && selectedAnswer === String.fromCharCode(97 + i) && String.fromCharCode(97 + i) !== correctAnswer}
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                </svg>
+              {:else if selectedAnswer === String.fromCharCode(97 + i) && !showExplanation}
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
                 </svg>
@@ -246,7 +270,7 @@
 <style>
   .quiz-container {
     width: 100%;
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 1rem;
   }
@@ -348,13 +372,13 @@
   }
 
   .question-card {
-    padding: 2.5rem;
+    padding: 2rem;
     background: var(--bg-primary);
     border: 1px solid var(--border-color);
   }
 
   .question-header {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
     border-bottom: 2px solid var(--border-color);
     padding-bottom: 1.5rem;
   }
@@ -369,8 +393,8 @@
   }
 
   .question-text {
-    font-size: 1.375rem;
-    font-weight: 700;
+    font-size: 1.25rem;
+    font-weight: 600;
     color: var(--text-primary);
     line-height: 1.6;
     margin-bottom: 1.25rem;
@@ -405,12 +429,12 @@
   }
 
   .options-container {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
   }
 
   .options-title {
-    font-size: 1.125rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 600;
     color: var(--text-primary);
     margin-bottom: 1.5rem;
     text-align: left;
@@ -419,11 +443,11 @@
   .option-btn {
     display: flex;
     align-items: center;
-    gap: 1.25rem;
-    padding: 1.5rem;
-    margin-bottom: 1rem;
+    gap: 1rem;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
     border: 2px solid var(--border-color);
-    border-radius: var(--radius-lg);
+    border-radius: var(--radius-md);
     background: var(--bg-primary);
     cursor: pointer;
     transition: all 0.2s ease-in-out;
@@ -446,8 +470,21 @@
     box-shadow: var(--shadow-lg);
   }
 
+  .option-btn.correct {
+    border-color: var(--success-color);
+    background: var(--success-color);
+    color: white;
+    box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
+  }
+
+  .option-btn.incorrect {
+    border-color: var(--error-color);
+    background: var(--error-color);
+    color: white;
+    box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+  }
+
   .option-btn:disabled {
-    opacity: 0.7;
     cursor: not-allowed;
   }
 
@@ -455,18 +492,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     background: var(--bg-tertiary);
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 0.875rem;
     flex-shrink: 0;
     color: var(--text-primary);
     border: 2px solid var(--border-color);
   }
 
-  .option-btn.selected .option-letter {
+  .option-btn.selected .option-letter,
+  .option-btn.correct .option-letter,
+  .option-btn.incorrect .option-letter {
     background: rgba(255, 255, 255, 0.2);
     color: white;
     border-color: rgba(255, 255, 255, 0.3);
@@ -478,21 +517,23 @@
   }
 
   .option-text {
-    font-size: 1.125rem;
-    line-height: 1.6;
-    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 500;
     display: block;
     word-wrap: break-word;
     color: var(--text-primary);
   }
 
-  .option-btn.selected .option-text {
+  .option-btn.selected .option-text,
+  .option-btn.correct .option-text,
+  .option-btn.incorrect .option-text {
     color: white;
   }
 
   .option-indicator {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -520,7 +561,7 @@
 
   .explanation-card {
     margin-top: 2rem;
-    padding: 2rem;
+    padding: 1.5rem;
     background: var(--bg-secondary);
     border-radius: var(--radius-lg);
     border: 2px solid var(--border-color);
@@ -530,33 +571,33 @@
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
   }
 
   .explanation-icon {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .explanation-header h3 {
-    font-size: 1.25rem;
-    font-weight: 700;
+    font-size: 1.125rem;
+    font-weight: 600;
     color: var(--text-primary);
   }
 
   .explanation-content {
     color: var(--text-primary);
-    line-height: 1.7;
-    font-size: 1rem;
-    font-weight: 500;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    font-weight: 400;
   }
 
   .explanation-content :global(strong) {
     color: var(--primary-color);
-    font-weight: 700;
+    font-weight: 600;
   }
 
   .quiz-results {
-    padding: 3rem;
+    padding: 2.5rem;
     text-align: center;
     max-width: 500px;
     margin: 0 auto;
@@ -572,7 +613,7 @@
   }
 
   .results-header h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 700;
     color: var(--text-primary);
     margin-bottom: 0.5rem;
@@ -581,7 +622,7 @@
   .results-subtitle {
     color: var(--text-secondary);
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
   }
 
   .score-display {
@@ -592,8 +633,8 @@
     display: inline-flex;
     align-items: baseline;
     justify-content: center;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background: linear-gradient(135deg, var(--primary-color), #8b5cf6);
     color: white;
@@ -602,18 +643,18 @@
   }
 
   .score-number {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
   }
 
   .score-total {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 500;
     opacity: 0.8;
   }
 
   .score-label {
-    font-size: 1rem;
+    font-size: 0.875rem;
     color: var(--text-primary);
     font-weight: 600;
   }
@@ -636,16 +677,16 @@
   }
 
   .stat-value {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
     color: var(--primary-color);
   }
 
   .stat-label {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     color: var(--text-primary);
     margin-top: 0.25rem;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .loading-container {
@@ -669,8 +710,8 @@
 
   .loading-container p {
     color: var(--text-primary);
-    font-weight: 600;
-    font-size: 1.125rem;
+    font-weight: 500;
+    font-size: 1rem;
   }
 
   @keyframes spin {
@@ -700,16 +741,16 @@
     }
 
     .question-text {
-      font-size: 1.25rem;
+      font-size: 1.125rem;
     }
 
     .option-btn {
-      padding: 1.25rem;
-      gap: 1rem;
+      padding: 0.875rem;
+      gap: 0.75rem;
     }
 
     .option-text {
-      font-size: 1rem;
+      font-size: 0.9rem;
     }
 
     .question-actions {

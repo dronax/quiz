@@ -14,13 +14,15 @@
 </script>
 
 <main class="main-container">
-  <div class="header">
-    <h1 class="title">
-      <span class="title-icon">🎓</span>
-      Nepal Engineering License Exam Quiz
-    </h1>
-    <p class="subtitle">Test your knowledge and prepare for success</p>
-  </div>
+  {#if !selectedSet}
+    <div class="header">
+      <h1 class="title">
+        <span class="title-icon">🎓</span>
+        Nepal Engineering License Exam Quiz
+      </h1>
+      <p class="subtitle">Test your knowledge and prepare for success</p>
+    </div>
+  {/if}
 
   <div class="content">
     {#if selectedSet}
