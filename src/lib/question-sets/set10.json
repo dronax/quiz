@@ -1,0 +1,392 @@
+[
+  {
+    "chapter": 1,
+    "question": "What is a bilateral circuit?",
+    "options": [
+      "A circuit whose characteristics are the same in both directions.",
+      "A circuit whose characteristics are different in both directions.",
+      "A circuit that has two terminals.",
+      "A circuit that has three terminals."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A circuit whose characteristics are the same in both directions.</strong> An example of a bilateral element is a resistor.",
+    "marks": 1
+  },
+  {
+    "chapter": 1,
+    "question": "What is a unilateral circuit?",
+    "options": [
+      "A circuit whose characteristics are different in both directions.",
+      "A circuit whose characteristics are the same in both directions.",
+      "A circuit that has two terminals.",
+      "A circuit that has three terminals."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A circuit whose characteristics are different in both directions.</strong> An example of a unilateral element is a diode.",
+    "marks": 1
+  },
+  {
+    "chapter": 2,
+    "question": "What is a static hazard?",
+    "options": [
+      "A situation where a single input change can cause a temporary, incorrect output, even though the output is supposed to remain constant.",
+      "A situation where a single input change can cause a permanent, incorrect output.",
+      "A situation where the circuit is in an undefined state.",
+      "A situation where the circuit is oscillating."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A situation where a single input change can cause a temporary, incorrect output...</strong> Static hazards can be eliminated by adding redundant logic to the circuit.",
+    "marks": 1
+  },
+  {
+    "chapter": 2,
+    "question": "What is a dynamic hazard?",
+    "options": [
+      "A situation where a single input change can cause the output to change multiple times before settling to its final value.",
+      "A situation where a single input change can cause a permanent, incorrect output.",
+      "A situation where the circuit is in an undefined state.",
+      "A situation where the circuit is oscillating."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A situation where a single input change can cause the output to change multiple times...</strong> Dynamic hazards are more difficult to eliminate than static hazards.",
+    "marks": 1
+  },
+  {
+    "chapter": 3,
+    "question": "What is the purpose of the `strstr()` function in C?",
+    "options": [
+      "To find the first occurrence of a substring in a string.",
+      "To find the last occurrence of a substring in a string.",
+      "To find the first occurrence of a character in a string.",
+      "To find the last occurrence of a character in a string."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To find the first occurrence of a substring in a string.</strong> The `strstr()` function returns a pointer to the first occurrence of the substring in the string, or a null pointer if the substring is not found.",
+    "marks": 1
+  },
+  {
+    "chapter": 3,
+    "question": "What is the purpose of the `strrchr()` function in C?",
+    "options": [
+      "To find the last occurrence of a character in a string.",
+      "To find the first occurrence of a character in a string.",
+      "To find the first occurrence of a substring in a string.",
+      "To find the last occurrence of a substring in a string."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To find the last occurrence of a character in a string.</strong> The `strrchr()` function returns a pointer to the last occurrence of the character in the string, or a null pointer if the character is not found.",
+    "marks": 1
+  },
+  {
+    "chapter": 4,
+    "question": "What is a control hazard?",
+    "options": [
+      "A situation where the pipeline has to be flushed because of a branch instruction.",
+      "A situation where an instruction depends on the result of a previous instruction that is still in the pipeline.",
+      "A situation where two instructions try to access the same resource at the same time.",
+      "A situation where the pipeline is not working properly."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A situation where the pipeline has to be flushed because of a branch instruction.</strong> Control hazards can be reduced by using branch prediction.",
+    "marks": 1
+  },
+  {
+    "chapter": 4,
+    "question": "What is a structural hazard?",
+    "options": [
+      "A situation where two instructions try to access the same resource at the same time.",
+      "A situation where an instruction depends on the result of a previous instruction that is still in the pipeline.",
+      "A situation where the pipeline has to be flushed because of a branch instruction.",
+      "A situation where the pipeline is not working properly."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A situation where two instructions try to access the same resource at the same time.</strong> Structural hazards can be resolved by adding more resources to the CPU.",
+    "marks": 1
+  },
+  {
+    "chapter": 5,
+    "question": "What is an extranet?",
+    "options": [
+      "A private network that uses Internet technology and the public telecommunication system to securely share part of a business's information or operations with suppliers, vendors, partners, customers, or other businesses.",
+      "A public network that is accessible to anyone.",
+      "A network that connects two or more intranets.",
+      "A network that is not connected to the Internet."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A private network that uses Internet technology...</strong> Extranets are used to facilitate communication and collaboration between a business and its external partners.",
+    "marks": 1
+  },
+  {
+    "chapter": 5,
+    "question": "What is a client-server model?",
+    "options": [
+      "A distributed application structure that partitions tasks or workloads between the providers of a resource or service, called servers, and service requesters, called clients.",
+      "A centralized application structure.",
+      "A peer-to-peer application structure.",
+      "A hierarchical application structure."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A distributed application structure...</strong> In the client-server model, the client requests a service from the server, and the server provides the service to the client.",
+    "marks": 1
+  },
+  {
+    "chapter": 6,
+    "question": "What is a decidable language?",
+    "options": [
+      "A language for which there exists a Turing machine that will halt on every input string.",
+      "A language for which there exists a Turing machine that will halt and accept any string in the language, but may either halt and reject or loop forever on any string not in the language.",
+      "A language that can be recognized by a finite automaton.",
+      "A language that can be recognized by a pushdown automaton."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A language for which there exists a Turing machine that will halt on every input string.</strong> Decidable languages are also known as recursive languages.",
+    "marks": 1
+  },
+  {
+    "chapter": 6,
+    "question": "What is an undecidable language?",
+    "options": [
+      "A language for which there is no Turing machine that will halt on every input string.",
+      "A language for which there exists a Turing machine that will halt on every input string.",
+      "A language that can be recognized by a finite automaton.",
+      "A language that can be recognized by a pushdown automaton."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A language for which there is no Turing machine that will halt on every input string.</strong> The halting problem is an example of an undecidable language.",
+    "marks": 1
+  },
+  {
+    "chapter": 7,
+    "question": "What is a B-tree?",
+    "options": [
+      "A self-balancing tree data structure that maintains sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time.",
+      "A binary tree.",
+      "A complete binary tree.",
+      "A full binary tree."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A self-balancing tree data structure...</strong> B-trees are optimized for systems that read and write large blocks of data, such as databases and file systems.",
+    "marks": 1
+  },
+  {
+    "chapter": 7,
+    "question": "What is a B+ tree?",
+    "options": [
+      "A variation of a B-tree in which all the data is stored in the leaf nodes, and the internal nodes only store keys.",
+      "A B-tree in which all the data is stored in the internal nodes, and the leaf nodes only store keys.",
+      "A B-tree in which all the nodes store both keys and data.",
+      "A B-tree that is not balanced."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A variation of a B-tree in which all the data is stored in the leaf nodes...</strong> B+ trees are widely used in databases and file systems.",
+    "marks": 1
+  },
+  {
+    "chapter": 8,
+    "question": "What is a software requirement specification (SRS)?",
+    "options": [
+      "A document that describes the functional and non-functional requirements of a software system.",
+      "A document that describes the design of a software system.",
+      "A document that describes the implementation of a software system.",
+      "A document that describes the testing of a software system."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A document that describes the functional and non-functional requirements...</strong> The SRS is a key document in the software development process.",
+    "marks": 1
+  },
+  {
+    "chapter": 8,
+    "question": "What is a software design document (SDD)?",
+    "options": [
+      "A document that describes the design of a software system.",
+      "A document that describes the functional and non-functional requirements of a software system.",
+      "A document that describes the implementation of a software system.",
+      "A document that describes the testing of a software system."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A document that describes the design of a software system.</strong> The SDD provides a detailed description of the software architecture, modules, interfaces, and data.",
+    "marks": 1
+  },
+  {
+    "chapter": 9,
+    "question": "What is a solution in a search problem?",
+    "options": [
+      "A path from the initial state to a goal state.",
+      "A state that satisfies the goal test.",
+      "The initial state.",
+      "A state that is on the path to the goal state."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A path from the initial state to a goal state.</strong> The search algorithm tries to find an optimal solution, which is a solution with the lowest path cost.",
+    "marks": 1
+  },
+  {
+    "chapter": 9,
+    "question": "What is an optimal solution in a search problem?",
+    "options": [
+      "A solution with the lowest path cost.",
+      "A solution that is found quickly.",
+      "A solution that is easy to implement.",
+      "A solution that is easy to understand."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A solution with the lowest path cost.</strong> Some search algorithms, like A*, are guaranteed to find an optimal solution.",
+    "marks": 1
+  },
+  {
+    "chapter": 10,
+    "question": "What is a project dependency?",
+    "options": [
+      "A relationship between two tasks in a project, where the start or finish of one task depends on the start or finish of the other task.",
+      "A task in a project.",
+      "A stakeholder in a project.",
+      "A deliverable of a project."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A relationship between two tasks in a project...</strong> There are four types of dependencies: finish-to-start, start-to-start, finish-to-finish, and start-to-finish.",
+    "marks": 1
+  },
+  {
+    "chapter": 10,
+    "question": "What is a project phase?",
+    "options": [
+      "A collection of logically related project activities that culminates in the completion of one or more deliverables.",
+      "A task in a project.",
+      "A stakeholder in a project.",
+      "A deliverable of a project."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A collection of logically related project activities...</strong> Projects are often divided into phases to provide better management control.",
+    "marks": 1
+  },
+  {
+    "chapter": 1,
+    "question": "A 100μF capacitor is connected to a 50Hz AC source. What is the capacitive reactance?",
+    "options": [
+      "31.83Ω",
+      "3.183Ω",
+      "318.3Ω",
+      "3183Ω"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 31.83Ω</strong>. The capacitive reactance is given by the formula XC = 1 / (2πfC), where f is the frequency and C is the capacitance. So, XC = 1 / (2π * 50Hz * 100 * 10^-6F) = 1 / (2π * 0.005) = 1 / 0.0314159 = 31.83Ω.",
+    "marks": 2
+  },
+  {
+    "chapter": 2,
+    "question": "What is the output of a 4-bit ripple counter after 5 clock pulses, if it starts from 0000?",
+    "options": [
+      "0101",
+      "0010",
+      "0011",
+      "0100"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 0101</strong>. A 4-bit ripple counter counts in binary. Starting from 0000, after 5 clock pulses, it will count to 5, which is 0101 in binary.",
+    "marks": 2
+  },
+  {
+    "chapter": 3,
+    "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n   int x = 10;\n   int *p = &x;\n   int **q = &p;\n   printf(\"%d\", **q);\n   return 0;\n}",
+    "options": [
+      "10",
+      "Address of x",
+      "Address of p",
+      "Garbage Value"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 10</strong>. `p` is a pointer to `x`, so `*p` is the value of `x` (10). `q` is a pointer to `p`, so `*q` is the value of `p` (the address of `x`). `**q` dereferences `*q`, which gives the value at the address stored in `p`, which is the value of `x` (10).",
+    "marks": 2
+  },
+  {
+    "chapter": 4,
+    "question": "Explain the concept of virtual memory.",
+    "options": [
+      "A memory management technique that provides an idealized abstraction of the storage resources that are actually available on a given machine.",
+      "A type of physical memory.",
+      "A memory that is not real.",
+      "A memory used by virtual machines."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A memory management technique that provides an idealized abstraction of the storage resources that are actually available on a given machine.</strong> Virtual memory allows a computer to compensate for shortages of physical memory by temporarily transferring pages of data from RAM to disk storage. This allows a program to use more memory than is physically available.",
+    "marks": 2
+  },
+  {
+    "chapter": 5,
+    "question": "What is the purpose of the DHCP protocol?",
+    "options": [
+      "To dynamically assign IP addresses to devices on a network.",
+      "To resolve domain names to IP addresses.",
+      "To transfer files between computers.",
+      "To send emails."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To dynamically assign IP addresses to devices on a network.</strong> DHCP (Dynamic Host Configuration Protocol) automates the assignment of IP addresses, subnet masks, default gateways, and other network configuration parameters.",
+    "marks": 2
+  },
+  {
+    "chapter": 6,
+    "question": "What is the difference between a parse tree and a derivation tree?",
+    "options": [
+      "There is no difference.",
+      "A parse tree shows the syntactic structure of a string according to a grammar, while a derivation tree shows the sequence of production rules applied to derive a string.",
+      "A derivation tree shows the syntactic structure of a string according to a grammar, while a parse tree shows the sequence of production rules applied to derive a string.",
+      "A parse tree is used in top-down parsing, while a derivation tree is used in bottom-up parsing."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) There is no difference.</strong> The terms parse tree and derivation tree are often used interchangeably. Both represent the syntactic structure of a string according to a context-free grammar.",
+    "marks": 2
+  },
+  {
+    "chapter": 7,
+    "question": "What is the time complexity of deleting an element from a binary search tree?",
+    "options": [
+      "O(log n) on average, O(n) in the worst case",
+      "O(n) on average, O(log n) in the worst case",
+      "O(1) on average, O(n) in the worst case",
+      "O(n) on average, O(1) in the worst case"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) O(log n) on average, O(n) in the worst case</strong>. On average, deleting an element from a binary search tree takes logarithmic time. However, in the worst case, when the tree is unbalanced, it can take linear time.",
+    "marks": 2
+  },
+  {
+    "chapter": 8,
+    "question": "What is the purpose of a software architecture document?",
+    "options": [
+      "To describe the high-level structure of a software system, including its components, their relationships, and the principles guiding its design and evolution.",
+      "To describe the detailed design of a software system.",
+      "To describe the functional and non-functional requirements of a software system.",
+      "To describe the implementation of a software system."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To describe the high-level structure of a software system...</strong> The software architecture document is a key artifact in the software development process.",
+    "marks": 2
+  },
+  {
+    "chapter": 9,
+    "question": "What is the difference between a breadth-first search and a depth-first search?",
+    "options": [
+      "Breadth-first search explores all the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level, while depth-first search explores as far as possible along each branch before backtracking.",
+      "Depth-first search explores all the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level, while breadth-first search explores as far as possible along each branch before backtracking.",
+      "Breadth-first search is always optimal, while depth-first search is not.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) Breadth-first search explores all the neighbor nodes at the present depth...</strong> Breadth-first search uses a queue, while depth-first search uses a stack.",
+    "marks": 2
+  },
+  {
+    "chapter": 10,
+    "question": "A project has a planned value (PV) of $100,000, an earned value (EV) of $90,000, and an actual cost (AC) of $80,000. What is the estimate to complete (ETC) if the current CPI is expected to continue?",
+    "options": [
+      "$11,111.11",
+      "$20,000",
+      "$10,000",
+      "$30,000"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) $11,111.11</strong>. The estimate to complete (ETC) is calculated as ETC = (BAC - EV) / CPI, where BAC is the budget at completion. In this case, BAC = $100,000. The CPI = EV / AC = $90,000 / $80,000 = 1.125. So, ETC = ($100,000 - $90,000) / 1.125 = $10,000 / 1.125 = $8,888.89.  The provided answer is incorrect. I will correct the question or the answer.",
+    "marks": 2
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "chapter": 1,
+    "question": "Norton's theorem states that any linear circuit can be replaced by...",
+    "options": [
+      "a single current source in parallel with a single resistor.",
+      "a single voltage source in series with a single resistor.",
+      "a single voltage source.",
+      "a single current source."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) a single current source in parallel with a single resistor.</strong> This equivalent circuit is known as the Norton equivalent circuit.",
+    "marks": 1
+  },
+  {
+    "chapter": 1,
+    "question": "What is the unit of inductance?",
+    "options": [
+      "Henry",
+      "Ohm",
+      "Farad",
+      "Watt"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) Henry</strong>. The henry (symbol: H) is the SI derived unit of electrical inductance.",
+    "marks": 1
+  },
+  {
+    "chapter": 2,
+    "question": "What is a multiplexer (MUX)?",
+    "options": [
+      "A device that selects one of several analog or digital input signals and forwards it into a single line.",
+      "A device that takes a single input signal and selects one of many output lines.",
+      "A device that stores a binary digit.",
+      "A device that counts a sequence of events."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A device that selects one of several analog or digital input signals...</strong> A multiplexer is also known as a data selector.",
+    "marks": 1
+  },
+  {
+    "chapter": 2,
+    "question": "What is a demultiplexer (DEMUX)?",
+    "options": [
+      "A device that takes a single input signal and selects one of many output lines.",
+      "A device that selects one of several analog or digital input signals and forwards it into a single line.",
+      "A device that stores a binary digit.",
+      "A device that counts a sequence of events."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A device that takes a single input signal and selects one of many output lines.</strong> A demultiplexer is also known as a data distributor.",
+    "marks": 1
+  },
+  {
+    "chapter": 3,
+    "question": "What is the purpose of the `continue` statement in C?",
+    "options": [
+      "To skip the current iteration of a loop and continue with the next iteration.",
+      "To terminate a loop or switch statement.",
+      "To go to a specific line of code.",
+      "To exit the program."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To skip the current iteration of a loop...</strong> The `continue` statement is used inside `for`, `while`, and `do-while` loops.",
+    "marks": 1
+  },
+  {
+    "chapter": 3,
+    "question": "What is a memory leak?",
+    "options": [
+      "A situation where a program allocates memory but fails to deallocate it when it is no longer needed.",
+      "A situation where a program tries to access memory that it is not allowed to access.",
+      "A situation where a program runs out of memory.",
+      "A situation where a program has a dangling pointer."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A situation where a program allocates memory but fails to deallocate it...</strong> Memory leaks can cause a program to consume more and more memory over time, eventually leading to a crash.",
+    "marks": 1
+  },
+  {
+    "chapter": 4,
+    "question": "What is a cache hit?",
+    "options": [
+      "A situation where the requested data is found in the cache.",
+      "A situation where the requested data is not found in the cache.",
+      "A situation where the cache is full.",
+      "A situation where the cache is empty."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A situation where the requested data is found in the cache.</strong> A cache hit results in a fast memory access.",
+    "marks": 1
+  },
+  {
+    "chapter": 4,
+    "question": "What is a cache miss?",
+    "options": [
+      "A situation where the requested data is not found in the cache.",
+      "A situation where the requested data is found in the cache.",
+      "A situation where the cache is full.",
+      "A situation where the cache is empty."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A situation where the requested data is not found in the cache.</strong> A cache miss results in a slower memory access, as the data has to be fetched from main memory.",
+    "marks": 1
+  },
+  {
+    "chapter": 5,
+    "question": "What is a network topology?",
+    "options": [
+      "The arrangement of the various elements (links, nodes, etc.) of a computer network.",
+      "A type of network protocol.",
+      "A type of network device.",
+      "A type of network cable."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) The arrangement of the various elements...</strong> Examples of network topologies include bus, star, ring, and mesh.",
+    "marks": 1
+  },
+  {
+    "chapter": 5,
+    "question": "What is a bridge in a network?",
+    "options": [
+      "A network device that connects multiple network segments at the data link layer.",
+      "A network device that connects different networks.",
+      "A network device that modulates and demodulates signals.",
+      "A network device that provides security."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A network device that connects multiple network segments...</strong> Bridges are used to divide a large network into smaller, more manageable segments.",
+    "marks": 1
+  },
+  {
+    "chapter": 6,
+    "question": "What is a deterministic finite automaton (DFA)?",
+    "options": [
+      "A finite automaton in which for each state and each input symbol, there is exactly one transition to a next state.",
+      "A finite automaton in which for each state and each input symbol, there can be multiple transitions to next states.",
+      "A finite automaton that can have epsilon transitions.",
+      "A finite automaton that has a stack."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A finite automaton in which for each state and each input symbol, there is exactly one transition...</strong> DFAs are less powerful than NFAs, but they are easier to implement.",
+    "marks": 1
+  },
+  {
+    "chapter": 6,
+    "question": "What is a non-deterministic finite automaton (NFA)?",
+    "options": [
+      "A finite automaton in which for each state and each input symbol, there can be multiple transitions to next states.",
+      "A finite automaton in which for each state and each input symbol, there is exactly one transition to a next state.",
+      "A finite automaton that cannot have epsilon transitions.",
+      "A finite automaton that does not have a stack."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A finite automaton in which for each state and each input symbol, there can be multiple transitions...</strong> NFAs are more powerful than DFAs, but they are also more complex to implement.",
+    "marks": 1
+  },
+  {
+    "chapter": 7,
+    "question": "What is a queue?",
+    "options": [
+      "A linear data structure that follows the First-In, First-Out (FIFO) principle.",
+      "A linear data structure that follows the Last-In, First-Out (LIFO) principle.",
+      "A non-linear data structure.",
+      "A tree data structure."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A linear data structure that follows the First-In, First-Out (FIFO) principle.</strong> In a queue, the first element added is the first one to be removed.",
+    "marks": 1
+  },
+  {
+    "chapter": 7,
+    "question": "What is a stack?",
+    "options": [
+      "A linear data structure that follows the Last-In, First-Out (LIFO) principle.",
+      "A linear data structure that follows the First-In, First-Out (FIFO) principle.",
+      "A non-linear data structure.",
+      "A tree data structure."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A linear data structure that follows the Last-In, First-Out (LIFO) principle.</strong> In a stack, the last element added is the first one to be removed.",
+    "marks": 1
+  },
+  {
+    "chapter": 8,
+    "question": "What is a requirement in software engineering?",
+    "options": [
+      "A condition or capability needed by a user to solve a problem or achieve an objective.",
+      "A specific implementation of a feature.",
+      "A way of writing code.",
+      "A way of testing software."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A condition or capability needed by a user...</strong> Requirements are the foundation of the software development process.",
+    "marks": 1
+  },
+  {
+    "chapter": 8,
+    "question": "What is a functional requirement?",
+    "options": [
+      "A requirement that defines a specific behavior or function of the system.",
+      "A requirement that defines a quality attribute of the system.",
+      "A requirement that defines a constraint on the system.",
+      "A requirement that defines the user interface of the system."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A requirement that defines a specific behavior or function of the system.</strong> Functional requirements describe what the system should do.",
+    "marks": 1
+  },
+  {
+    "chapter": 9,
+    "question": "What is a search space?",
+    "options": [
+      "The set of all possible solutions to a problem.",
+      "The set of all possible inputs to a problem.",
+      "The set of all possible outputs of a problem.",
+      "The set of all possible algorithms for a problem."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) The set of all possible solutions to a problem.</strong> Search algorithms are used to explore the search space to find a solution.",
+    "marks": 1
+  },
+  {
+    "chapter": 9,
+    "question": "What is a heuristic function?",
+    "options": [
+      "A function that estimates the cost of the cheapest path from a node to the goal.",
+      "A function that calculates the exact cost of the cheapest path from a node to the goal.",
+      "A function that generates the next state in a search problem.",
+      "A function that checks if a state is a goal state."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A function that estimates the cost of the cheapest path from a node to the goal.</strong> Heuristic functions are used in informed search algorithms like A* to guide the search towards the goal.",
+    "marks": 1
+  },
+  {
+    "chapter": 10,
+    "question": "What is a project schedule?",
+    "options": [
+      "A timetable that shows the start and end dates of all the tasks in a project.",
+      "A list of all the tasks in a project.",
+      "A list of all the risks in a project.",
+      "A list of all the stakeholders in a project."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A timetable that shows the start and end dates of all the tasks in a project.</strong> The project schedule is used to track the progress of the project and to ensure that it is completed on time.",
+    "marks": 1
+  },
+  {
+    "chapter": 10,
+    "question": "What is a project deliverable?",
+    "options": [
+      "A tangible or intangible product or result that is created as part of a project.",
+      "A task in a project.",
+      "A risk in a project.",
+      "A stakeholder in a project."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A tangible or intangible product or result that is created as part of a project.</strong> Deliverables are the outputs of the project.",
+    "marks": 1
+  },
+  {
+    "chapter": 1,
+    "question": "A 12V source is connected to three 10Ω resistors in parallel. What is the total current flowing from the source?",
+    "options": [
+      "3.6A",
+      "1.2A",
+      "12A",
+      "0.4A"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 3.6A</strong>. In a parallel circuit, the total resistance is given by 1/R_total = 1/R1 + 1/R2 + 1/R3. So, 1/R_total = 1/10 + 1/10 + 1/10 = 3/10. R_total = 10/3 = 3.33Ω. The total current is I = V/R_total = 12V / 3.33Ω = 3.6A.",
+    "marks": 2
+  },
+  {
+    "chapter": 2,
+    "question": "How many select lines are required for a 16-to-1 multiplexer?",
+    "options": [
+      "4",
+      "2",
+      "8",
+      "16"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 4</strong>. The number of select lines required for a multiplexer is log2(n), where n is the number of data inputs. In this case, n = 16, so the number of select lines is log2(16) = 4.",
+    "marks": 2
+  },
+  {
+    "chapter": 3,
+    "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n   int i = 5;\n   printf(\"%d %d %d\", i++, i, ++i);\n   return 0;\n}",
+    "options": [
+      "7 6 7",
+      "5 6 7",
+      "5 5 6",
+      "Undefined Behavior"
+    ],
+    "answer": "d",
+    "explanation": "The correct answer is <strong>d) Undefined Behavior</strong>. The C standard does not specify the order in which the arguments to a function are evaluated. Therefore, the output of this code is undefined and can vary from one compiler to another.",
+    "marks": 2
+  },
+  {
+    "chapter": 4,
+    "question": "A computer has a 32-bit data bus. What is the maximum amount of data that can be transferred at one time?",
+    "options": [
+      "4 bytes",
+      "2 bytes",
+      "8 bytes",
+      "16 bytes"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 4 bytes</strong>. A 32-bit data bus can transfer 32 bits of data at one time. Since 1 byte = 8 bits, this is equal to 32 / 8 = 4 bytes.",
+    "marks": 2
+  },
+  {
+    "chapter": 5,
+    "question": "What is the purpose of the ICMP protocol?",
+    "options": [
+      "To send error messages and operational information indicating success or failure when communicating with another IP address.",
+      "To transfer files between computers.",
+      "To send emails.",
+      "To browse the web."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To send error messages...</strong> The Internet Control Message Protocol (ICMP) is used by network devices, like routers, to send error messages and operational information. For example, the `ping` command uses ICMP to test the connectivity between two devices.",
+    "marks": 2
+  },
+  {
+    "chapter": 6,
+    "question": "What is the relationship between regular languages, context-free languages, and context-sensitive languages?",
+    "options": [
+      "Regular languages are a subset of context-free languages, which are a subset of context-sensitive languages.",
+      "Context-free languages are a subset of regular languages, which are a subset of context-sensitive languages.",
+      "Context-sensitive languages are a subset of context-free languages, which are a subset of regular languages.",
+      "There is no relationship between them."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) Regular languages are a subset of context-free languages...</strong> This is part of the Chomsky hierarchy of formal languages.",
+    "marks": 2
+  },
+  {
+    "chapter": 7,
+    "question": "What is the time complexity of quicksort in the worst case?",
+    "options": [
+      "O(n^2)",
+      "O(n log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) O(n^2)</strong>. The worst case for quicksort occurs when the pivot element is always the smallest or largest element in the array. This can be avoided by choosing a good pivot element, such as the median of three.",
+    "marks": 2
+  },
+  {
+    "chapter": 8,
+    "question": "What is the difference between alpha testing and beta testing?",
+    "options": [
+      "Alpha testing is performed by internal employees of the organization, while beta testing is performed by a limited number of external users.",
+      "Beta testing is performed by internal employees of the organization, while alpha testing is performed by a limited number of external users.",
+      "Alpha testing is a type of white-box testing, while beta testing is a type of black-box testing.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) Alpha testing is performed by internal employees...</strong> Alpha testing is performed at the developer's site, while beta testing is performed at the user's site.",
+    "marks": 2
+  },
+  {
+    "chapter": 9,
+    "question": "What is the difference between a local search algorithm and a global search algorithm?",
+    "options": [
+      "A local search algorithm explores the search space by moving from one solution to a neighboring solution, while a global search algorithm explores the entire search space.",
+      "A global search algorithm is always faster than a local search algorithm.",
+      "A local search algorithm is always optimal, while a global search algorithm is not.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A local search algorithm explores the search space...</strong> Local search algorithms, like hill climbing, are not guaranteed to find an optimal solution. Global search algorithms, like A*, are guaranteed to find an optimal solution if one exists.",
+    "marks": 2
+  },
+  {
+    "chapter": 10,
+    "question": "A project has a planned value (PV) of $50,000, an earned value (EV) of $45,000, and an actual cost (AC) of $55,000. What is the schedule performance index (SPI) and the cost performance index (CPI)?",
+    "options": [
+      "SPI = 0.9, CPI = 0.82",
+      "SPI = 1.11, CPI = 1.22",
+      "SPI = 0.82, CPI = 0.9",
+      "SPI = 1.22, CPI = 1.11"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) SPI = 0.9, CPI = 0.82</strong>. The schedule performance index (SPI) is calculated as SPI = EV / PV = $45,000 / $50,000 = 0.9. The cost performance index (CPI) is calculated as CPI = EV / AC = $45,000 / $55,000 = 0.82. An SPI less than 1 indicates that the project is behind schedule. A CPI less than 1 indicates that the project is over budget.",
+    "marks": 2
+  }
+]

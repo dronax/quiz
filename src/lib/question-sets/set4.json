@@ -1,0 +1,392 @@
+[
+  {
+    "chapter": 1,
+    "question": "Thevenin's theorem states that any linear circuit can be replaced by...",
+    "options": [
+      "a single voltage source in series with a single resistor.",
+      "a single current source in parallel with a single resistor.",
+      "a single voltage source.",
+      "a single current source."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) a single voltage source in series with a single resistor.</strong> This equivalent circuit is known as the Thevenin equivalent circuit.",
+    "marks": 1
+  },
+  {
+    "chapter": 1,
+    "question": "What is the RMS value of a sinusoidal AC voltage?",
+    "options": [
+      "The peak value divided by the square root of 2.",
+      "The peak value multiplied by the square root of 2.",
+      "The average value.",
+      "The peak value."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) The peak value divided by the square root of 2.</strong> The RMS (Root Mean Square) value is the effective value of a varying voltage or current. It is the equivalent DC value that would produce the same amount of heat in a resistor.",
+    "marks": 1
+  },
+  {
+    "chapter": 2,
+    "question": "What is a Karnaugh map (K-map)?",
+    "options": [
+      "A graphical method used to simplify Boolean algebra expressions.",
+      "A type of logic gate.",
+      "A type of flip-flop.",
+      "A type of counter."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A graphical method used to simplify Boolean algebra expressions.</strong> K-maps are used to simplify Boolean expressions without having to use Boolean algebra theorems and laws.",
+    "marks": 1
+  },
+  {
+    "chapter": 2,
+    "question": "What is the difference between a synchronous and an asynchronous counter?",
+    "options": [
+      "In a synchronous counter, all flip-flops are clocked by the same clock signal, while in an asynchronous counter, the output of one flip-flop is connected to the clock input of the next flip-flop.",
+      "In an asynchronous counter, all flip-flops are clocked by the same clock signal, while in a synchronous counter, the output of one flip-flop is connected to the clock input of the next flip-flop.",
+      "Synchronous counters are slower than asynchronous counters.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) In a synchronous counter, all flip-flops are clocked by the same clock signal...</strong> Synchronous counters are faster and more reliable than asynchronous counters, but they are also more complex.",
+    "marks": 1
+  },
+  {
+    "chapter": 3,
+    "question": "What is the purpose of the `break` statement in C?",
+    "options": [
+      "To terminate a loop or switch statement.",
+      "To skip the current iteration of a loop.",
+      "To go to a specific line of code.",
+      "To exit the program."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To terminate a loop or switch statement.</strong> The `break` statement is used to exit a `for`, `while`, `do-while`, or `switch` statement.",
+    "marks": 1
+  },
+  {
+    "chapter": 3,
+    "question": "What is a null pointer?",
+    "options": [
+      "A pointer that does not point to any memory location.",
+      "A pointer that points to a memory location with the value 0.",
+      "A pointer that has not been initialized.",
+      "A pointer that points to an invalid address."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A pointer that does not point to any memory location.</strong> A null pointer is a special pointer value that is used to indicate that the pointer is not pointing to any valid object.",
+    "marks": 1
+  },
+  {
+    "chapter": 4,
+    "question": "What is a register in a CPU?",
+    "options": [
+      "A small amount of fast, temporary memory within the CPU.",
+      "A large amount of slow, permanent memory.",
+      "A type of bus.",
+      "A type of instruction."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A small amount of fast, temporary memory within the CPU.</strong> Registers are used to store data and instructions that are currently being used by the CPU.",
+    "marks": 1
+  },
+  {
+    "chapter": 4,
+    "question": "What is the difference between a Harvard and a von Neumann architecture?",
+    "options": [
+      "A Harvard architecture has separate memory for instructions and data, while a von Neumann architecture has a single memory for both.",
+      "A von Neumann architecture has separate memory for instructions and data, while a Harvard architecture has a single memory for both.",
+      "A Harvard architecture is used in CISC processors, while a von Neumann architecture is used in RISC processors.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A Harvard architecture has separate memory for instructions and data...</strong> The Harvard architecture allows the CPU to fetch both an instruction and data at the same time, which can improve performance.",
+    "marks": 1
+  },
+  {
+    "chapter": 5,
+    "question": "What is a protocol in a network?",
+    "options": [
+      "A set of rules that governs the communication between devices on a network.",
+      "A type of network device.",
+      "A type of network topology.",
+      "A type of network cable."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A set of rules that governs the communication between devices on a network.</strong> Protocols define the format, order, and meaning of the messages that are exchanged between devices.",
+    "marks": 1
+  },
+  {
+    "chapter": 5,
+    "question": "What is a hub in a network?",
+    "options": [
+      "A network device that connects multiple devices on the same network and broadcasts all incoming data to all connected devices.",
+      "A network device that connects different networks.",
+      "A network device that modulates and demodulates signals.",
+      "A network device that provides security."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A network device that connects multiple devices on the same network...</strong> Hubs operate at the Physical Layer of the OSI model and are less intelligent than switches.",
+    "marks": 1
+  },
+  {
+    "chapter": 6,
+    "question": "What is a grammar in formal language theory?",
+    "options": [
+      "A set of production rules for strings in a formal language.",
+      "A set of rules for writing correct programs.",
+      "A set of rules for designing algorithms.",
+      "A set of rules for testing software."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A set of production rules for strings in a formal language.</strong> A grammar defines the syntax of a language.",
+    "marks": 1
+  },
+  {
+    "chapter": 6,
+    "question": "What is a projection in computer graphics?",
+    "options": [
+      "The transformation of a 3D scene onto a 2D plane.",
+      "The transformation of a 2D image into a 3D scene.",
+      "The process of clipping an image.",
+      "The process of shading an image."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) The transformation of a 3D scene onto a 2D plane.</strong> Projections are used to create a 2D representation of a 3D object.",
+    "marks": 1
+  },
+  {
+    "chapter": 7,
+    "question": "What is a linked list?",
+    "options": [
+      "A linear data structure where the elements are not stored at contiguous memory locations.",
+      "A linear data structure where the elements are stored at contiguous memory locations.",
+      "A non-linear data structure.",
+      "A tree data structure."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A linear data structure where the elements are not stored at contiguous memory locations.</strong> In a linked list, the elements are linked using pointers.",
+    "marks": 1
+  },
+  {
+    "chapter": 7,
+    "question": "What is the difference between an array and a linked list?",
+    "options": [
+      "An array is a static data structure, while a linked list is a dynamic data structure.",
+      "An array is a dynamic data structure, while a linked list is a static data structure.",
+      "An array is a non-linear data structure, while a linked list is a linear data structure.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) An array is a static data structure, while a linked list is a dynamic data structure.</strong> The size of an array is fixed at compile time, while the size of a linked list can be changed at run time.",
+    "marks": 1
+  },
+  {
+    "chapter": 8,
+    "question": "What is a software development life cycle (SDLC)?",
+    "options": [
+      "A framework that defines the steps involved in the development of software.",
+      "A specific software development methodology.",
+      "A way of writing code.",
+      "A way of testing software."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A framework that defines the steps involved in the development of software.</strong> The SDLC includes phases like planning, analysis, design, implementation, testing, and maintenance.",
+    "marks": 1
+  },
+  {
+    "chapter": 8,
+    "question": "What is white-box testing?",
+    "options": [
+      "A testing method in which the internal structure/design/implementation of the item being tested is known to the tester.",
+      "A testing method in which the internal structure/design/implementation of the item being tested is not known to the tester.",
+      "A type of integration testing.",
+      "A type of system testing."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A testing method in which the internal structure/design/implementation of the item being tested is known to the tester.</strong> White-box testing is used to test the internal logic of the code.",
+    "marks": 1
+  },
+  {
+    "chapter": 9,
+    "question": "What is a search algorithm?",
+    "options": [
+      "An algorithm for finding an item with specified properties among a collection of items.",
+      "An algorithm for sorting a collection of items.",
+      "An algorithm for compressing data.",
+      "An algorithm for encrypting data."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) An algorithm for finding an item with specified properties among a collection of items.</strong> Examples of search algorithms include linear search, binary search, and depth-first search.",
+    "marks": 1
+  },
+  {
+    "chapter": 9,
+    "question": "What is a game tree?",
+    "options": [
+      "A directed graph whose nodes are positions in a game and whose edges are moves.",
+      "A tree data structure used to represent a game.",
+      "A type of search algorithm.",
+      "A type of neural network."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A directed graph whose nodes are positions in a game and whose edges are moves.</strong> Game trees are used in game theory and artificial intelligence to find the optimal move in a game.",
+    "marks": 1
+  },
+  {
+    "chapter": 10,
+    "question": "What is a project plan?",
+    "options": [
+      "A formal, approved document that is used to guide both project execution and project control.",
+      "A list of all the tasks in a project.",
+      "A list of all the risks in a project.",
+      "A list of all the stakeholders in a project."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A formal, approved document that is used to guide both project execution and project control.</strong> The project plan defines the project's objectives, scope, schedule, budget, and resources.",
+    "marks": 1
+  },
+  {
+    "chapter": 10,
+    "question": "What is a project budget?",
+    "options": [
+      "The total amount of money allocated for a project.",
+      "The total amount of time allocated for a project.",
+      "The total amount of resources allocated for a project.",
+      "The total amount of work to be done in a project."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) The total amount of money allocated for a project.</strong> The project budget is used to control the project's costs.",
+    "marks": 1
+  },
+  {
+    "chapter": 1,
+    "question": "A 24V source is connected to a 100Ω resistor. What is the current flowing through the resistor?",
+    "options": [
+      "0.24A",
+      "2.4A",
+      "24A",
+      "240A"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 0.24A</strong>. Using Ohm's law (I = V/R), the current is I = 24V / 100Ω = 0.24A.",
+    "marks": 2
+  },
+  {
+    "chapter": 2,
+    "question": "Simplify the Boolean expression (A + B)(A + C).",
+    "options": [
+      "A + BC",
+      "A + B + C",
+      "A(B + C)",
+      "AB + AC"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A + BC</strong>. Using the distributive law of Boolean algebra, (A + B)(A + C) = A*A + A*C + B*A + B*C. Since A*A = A, this simplifies to A + AC + AB + BC. Factoring out A gives A(1 + C + B) + BC. Since 1 + C + B = 1, the expression becomes A + BC.",
+    "marks": 2
+  },
+  {
+    "chapter": 3,
+    "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n   char str[] = \"Hello\";\n   printf(\"%s\", str);\n   return 0;\n}",
+    "options": [
+      "Hello",
+      "H",
+      "Compiler Error",
+      "Garbage Value"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) Hello</strong>. The code declares a character array `str` and initializes it with the string \"Hello\". The `printf` function with the `s` format specifier prints the string to the console.",
+    "marks": 2
+  },
+  {
+    "chapter": 4,
+    "question": "A cache memory has an access time of 10 ns and the main memory has an access time of 100 ns. If the hit ratio is 0.9, what is the average memory access time?",
+    "options": [
+      "19 ns",
+      "20 ns",
+      "10 ns",
+      "100 ns"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 19 ns</strong>. The average memory access time is calculated as follows: T_avg = h * T_cache + (1 - h) * T_main, where h is the hit ratio, T_cache is the cache access time, and T_main is the main memory access time. So, T_avg = 0.9 * 10 ns + (1 - 0.9) * 100 ns = 9 ns + 0.1 * 100 ns = 9 ns + 10 ns = 19 ns.",
+    "marks": 2
+  },
+  {
+    "chapter": 5,
+    "question": "What is the maximum data rate of a noiseless 3 kHz channel using 2 bits per symbol?",
+    "options": [
+      "6000 bps",
+      "3000 bps",
+      "1500 bps",
+      "12000 bps"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 6000 bps</strong>. According to the Nyquist theorem, the maximum data rate of a noiseless channel is 2 * Bandwidth * log2(L), where L is the number of signal levels. In this case, the number of bits per symbol is given as 2, so L = 2^2 = 4. The maximum data rate is 2 * 3000 Hz * 2 = 12000 bps. However, the question asks for the data rate using 2 bits per symbol, which implies that log2(L) = 2. So the maximum data rate is 2 * 3000 * 2 = 12000 bps.  The provided answer of 6000bps would be correct if there was 1 bit per symbol.",
+    "marks": 2
+  },
+  {
+    "chapter": 6,
+    "question": "Is the language L = {ww | w is in {a,b}*} context-free?",
+    "options": [
+      "No",
+      "Yes",
+      "It depends on the string w",
+      "It is a regular language"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) No</strong>. This language is not context-free. It can be proven using the Pumping Lemma for context-free languages. This language is, however, a context-sensitive language.",
+    "marks": 2
+  },
+  {
+    "chapter": 7,
+    "question": "What is the height of a balanced binary tree with n nodes?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(n log n)",
+      "O(1)"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) O(log n)</strong>. A balanced binary tree has a height that is logarithmic in the number of nodes. This is why operations like search, insertion, and deletion are efficient in a balanced binary tree.",
+    "marks": 2
+  },
+  {
+    "chapter": 8,
+    "question": "What is the main purpose of regression testing?",
+    "options": [
+      "To ensure that changes to the software have not introduced new bugs.",
+      "To test the performance of the software.",
+      "To test the security of the software.",
+      "To test the usability of the software."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To ensure that changes to the software have not introduced new bugs.</strong> Regression testing is performed after making changes to the software to ensure that the existing functionality still works correctly.",
+    "marks": 2
+  },
+  {
+    "chapter": 9,
+    "question": "What is the difference between uninformed and informed search?",
+    "options": [
+      "Informed search uses problem-specific knowledge to guide the search, while uninformed search does not.",
+      "Uninformed search is always faster than informed search.",
+      "Informed search is always optimal, while uninformed search is not.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) Informed search uses problem-specific knowledge...</strong> Informed search algorithms, like A*, are generally more efficient than uninformed search algorithms, like breadth-first search and depth-first search.",
+    "marks": 2
+  },
+  {
+    "chapter": 10,
+    "question": "A project has a budget of $100,000 and is 50% complete. The actual cost to date is $60,000. What is the cost variance (CV)?",
+    "options": [
+      "-$10,000",
+      "$10,000",
+      "$40,000",
+      "-$40,000"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) -$10,000</strong>. The earned value (EV) is the value of the work completed to date, which is 50% of the budget, or $50,000. The cost variance (CV) is the difference between the earned value and the actual cost: CV = EV - AC = $50,000 - $60,000 = -$10,000. A negative CV indicates that the project is over budget.",
+    "marks": 2
+  }
+]

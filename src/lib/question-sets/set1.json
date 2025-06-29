@@ -1,0 +1,987 @@
+[
+  {
+    "chapter": 1,
+    "question": "What does Ohm's law state?",
+    "options": ["V = IR", "P = VI", "V = I/R", "I = R/V"],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) V = IR</strong>. Ohm's law states that the voltage (V) across a conductor is directly proportional to the current (I) flowing through it, provided all physical conditions and temperatures remain constant. R is the constant of proportionality, known as resistance.",
+    "marks": 1
+  },
+  {
+    "chapter": 1,
+    "question": "What is the primary function of a capacitor in an electronic circuit?",
+    "options": [
+      "To resist the flow of current",
+      "To store electrical energy",
+      "To amplify the signal",
+      "To provide a path for DC current"
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) To store electrical energy</strong>. A capacitor stores energy in an electric field between a pair of conductors (plates). It is used for filtering, energy storage, and timing applications.",
+    "marks": 1
+  },
+  {
+    "chapter": 1,
+    "question": "Which of the following is a passive component?",
+    "options": ["Transistor", "Operational Amplifier", "Resistor", "Diode"],
+    "answer": "c",
+    "explanation": "The correct answer is <strong>c) Resistor</strong>. Passive components, like resistors, capacitors, and inductors, do not require an external power source to operate and cannot amplify signals. Active components, like transistors and op-amps, require a power source.",
+    "marks": 1
+  },
+  {
+    "chapter": 1,
+    "question": "What is the resonance condition in a series RLC circuit?",
+    "options": ["XL > XC", "XC > XL", "XL = XC", "R = XL"],
+    "answer": "c",
+    "explanation": "The correct answer is <strong>c) XL = XC</strong>. In a series RLC circuit, resonance occurs when the inductive reactance (XL) equals the capacitive reactance (XC). At this point, the impedance is at its minimum, and the current is at its maximum.",
+    "marks": 1
+  },
+  {
+    "chapter": 1,
+    "question": "What is the purpose of a rectifier circuit?",
+    "options": [
+      "To convert AC to DC",
+      "To convert DC to AC",
+      "To amplify AC signals",
+      "To regulate voltage"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To convert AC to DC</strong>. A rectifier is an electrical device that converts alternating current (AC), which periodically reverses direction, to direct current (DC), which flows in only one direction.",
+    "marks": 1
+  },
+  {
+    "chapter": 1,
+    "question": "Which class of amplifier has the highest efficiency?",
+    "options": ["Class A", "Class B", "Class AB", "Class C"],
+    "answer": "d",
+    "explanation": "The correct answer is <strong>d) Class C</strong>. Class C amplifiers have the highest efficiency but also the highest distortion. They are typically used in radio frequency (RF) applications.",
+    "marks": 1
+  },
+  {
+    "chapter": 1,
+    "question": "A 10V source is connected to two 10Ω resistors in series. What is the total current flowing from the source?",
+    "options": ["1A", "0.5A", "2A", "0.25A"],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) 0.5A</strong>. In a series circuit, the total resistance is the sum of individual resistances: R_total = 10Ω + 10Ω = 20Ω. Using Ohm's law (I = V/R), the current is I = 10V / 20Ω = 0.5A.",
+    "marks": 2
+  },
+  {
+    "chapter": 1,
+    "question": "Explain the principle of operation of a full-wave bridge rectifier.",
+    "options": [
+      "It uses one diode to rectify the AC signal.",
+      "It uses two diodes and a center-tapped transformer.",
+      "It uses four diodes to rectify both halves of the AC cycle.",
+      "It uses a capacitor to smooth the DC output."
+    ],
+    "answer": "c",
+    "explanation": "The correct answer is <strong>c) It uses four diodes to rectify both halves of the AC cycle</strong>. A full-wave bridge rectifier uses four diodes arranged in a bridge configuration. During the positive half-cycle of the AC input, two diodes are forward-biased, and during the negative half-cycle, the other two diodes are forward-biased. This allows the circuit to convert the entire AC waveform into a pulsating DC waveform.",
+    "marks": 2
+  },
+  {
+    "chapter": 2,
+    "question": "What is the binary equivalent of the decimal number 13?",
+    "options": ["1101", "1011", "1110", "1001"],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 1101</strong>. To convert a decimal number to binary, you can use the method of successive division by 2. 13/2 = 6 remainder 1; 6/2 = 3 remainder 0; 3/2 = 1 remainder 1; 1/2 = 0 remainder 1. Reading the remainders from bottom to top gives 1101.",
+    "marks": 1
+  },
+  {
+    "chapter": 2,
+    "question": "Which of the following is not a sequential logic circuit?",
+    "options": ["Flip-flop", "Counter", "Multiplexer", "Register"],
+    "answer": "c",
+    "explanation": "The correct answer is <strong>c) Multiplexer</strong>. A multiplexer is a combinational logic circuit that selects one of several input signals and forwards it to a single output line. Sequential circuits, like flip-flops, counters, and registers, have memory elements and their output depends on the present input and the past output.",
+    "marks": 1
+  },
+  {
+    "chapter": 2,
+    "question": "What is the purpose of a decoder?",
+    "options": [
+      "To convert a binary code into a set of signals.",
+      "To select one of many inputs.",
+      "To store a binary digit.",
+      "To count a sequence of events."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To convert a binary code into a set of signals.</strong> A decoder is a combinational circuit that converts a binary code of n-bits into 2^n output lines. Only one output line is activated for each combination of input bits.",
+    "marks": 1
+  },
+  {
+    "chapter": 2,
+    "question": "What is an interrupt?",
+    "options": [
+      "A signal from a device seeking the attention of the processor.",
+      "A special type of instruction.",
+      "A memory location.",
+      "A hardware component."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A signal from a device seeking the attention of the processor.</strong> An interrupt is a signal to the processor emitted by hardware or software indicating an event that needs immediate attention. The processor responds by suspending its current activities, saving its state, and executing a function called an interrupt service routine (ISR) to deal with the event.",
+    "marks": 1
+  },
+  {
+    "chapter": 2,
+    "question": "What is DMA?",
+    "options": [
+      "Direct Memory Access",
+      "Digital Media Access",
+      "Direct Memory Allocation",
+      "Digital Media Allocation"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) Direct Memory Access</strong>. DMA is a feature of computer systems that allows certain hardware subsystems to access main system memory (RAM) independently of the central processing unit (CPU). This reduces the load on the CPU.",
+    "marks": 1
+  },
+  {
+    "chapter": 2,
+    "question": "What is the main function of an ALU?",
+    "options": [
+      "To perform arithmetic and logic operations.",
+      "To control the flow of data.",
+      "To store instructions.",
+      "To fetch data from memory."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To perform arithmetic and logic operations.</strong> The Arithmetic Logic Unit (ALU) is a digital circuit inside the CPU that performs arithmetic (addition, subtraction, etc.) and logic (AND, OR, NOT) operations.",
+    "marks": 1
+  },
+  {
+    "chapter": 2,
+    "question": "Simplify the Boolean expression A + A'B.",
+    "options": ["A + B", "A' + B", "A", "B"],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A + B</strong>. Using the distributive law of Boolean algebra, A + A'B = (A + A')(A + B). Since A + A' = 1, the expression simplifies to 1 * (A + B) = A + B.",
+    "marks": 2
+  },
+  {
+    "chapter": 2,
+    "question": "Design a 2-to-4 decoder using basic logic gates.",
+    "options": [
+      "It requires 2 AND gates and 4 NOT gates.",
+      "It requires 4 AND gates and 2 NOT gates.",
+      "It requires 2 OR gates and 4 AND gates.",
+      "It requires 4 OR gates and 2 NOT gates."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) It requires 4 AND gates and 2 NOT gates.</strong> A 2-to-4 decoder has 2 input lines and 4 output lines. Let the inputs be A and B. The four outputs will be A'B', A'B, AB', and AB. This requires two NOT gates to generate A' and B', and four 2-input AND gates to generate the four output combinations.",
+    "marks": 2
+  },
+  {
+    "chapter": 3,
+    "question": "Which of the following is not a valid C keyword?",
+    "options": ["int", "float", "string", "char"],
+    "answer": "c",
+    "explanation": "The correct answer is <strong>c) string</strong>. In C, `string` is not a keyword. Strings are typically represented as an array of characters (`char`).",
+    "marks": 1
+  },
+  {
+    "chapter": 3,
+    "question": "What is the purpose of the `sizeof` operator in C?",
+    "options": [
+      "To get the size of a variable or data type in bytes.",
+      "To get the length of a string.",
+      "To allocate memory.",
+      "To deallocate memory."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To get the size of a variable or data type in bytes.</strong> The `sizeof` operator is a compile-time unary operator used to compute the size of its operand. The result of `sizeof` is of the unsigned integral type `size_t`.",
+    "marks": 1
+  },
+  {
+    "chapter": 3,
+    "question": "What is a pointer in C?",
+    "options": [
+      "A variable that stores the address of another variable.",
+      "A variable that stores a character.",
+      "A variable that stores an integer.",
+      "A variable that stores a floating-point number."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A variable that stores the address of another variable.</strong> A pointer is a variable whose value is the memory address of another variable. Pointers are used for dynamic memory allocation, arrays, and passing arguments to functions by reference.",
+    "marks": 1
+  },
+  {
+    "chapter": 3,
+    "question": "What is the difference between `struct` and `union` in C?",
+    "options": [
+      "There is no difference.",
+      "A `struct` stores all members in separate memory locations, while a `union` stores all members in the same memory location.",
+      "A `union` is a keyword, while a `struct` is not.",
+      "A `struct` can have functions, while a `union` cannot."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) A `struct` stores all members in separate memory locations, while a `union` stores all members in the same memory location.</strong> In a `struct`, each member has its own memory location. In a `union`, all members share the same memory location. The size of a `union` is the size of its largest member.",
+    "marks": 1
+  },
+  {
+    "chapter": 3,
+    "question": "What is recursion?",
+    "options": [
+      "A function calling another function.",
+      "A function calling itself.",
+      "A loop that never ends.",
+      "A data structure."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) A function calling itself.</strong> Recursion is a programming technique where a function calls itself in its definition. A recursive function must have a base case to stop the recursion.",
+    "marks": 1
+  },
+  {
+    "chapter": 3,
+    "question": "What is the output of `printf('%d', printf('hello'));` in C?",
+    "options": ["hello5", "5hello", "hello", "5"],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) hello5</strong>. The inner `printf('hello')` prints 'hello' to the console and returns the number of characters printed, which is 5. The outer `printf('%d', ...)` then prints this returned value, 5. So the final output is 'hello5'.",
+    "marks": 1
+  },
+  {
+    "chapter": 3,
+    "question": "Write a C function to swap two numbers using pointers.",
+    "options": [
+      "void swap(int a, int b) { int temp = a; a = b; b = temp; }",
+      "void swap(int *a, int *b) { int temp = *a; *a = *b; *b = temp; }",
+      "void swap(int &a, int &b) { int temp = a; a = b; b = temp; }",
+      "int swap(int a, int b) { return b, a; }"
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) void swap(int *a, int *b) { int temp = *a; *a = *b; *b = temp; }</strong>. To swap the values of two variables in the calling function, you need to pass their addresses (pointers) to the swap function. The function then dereferences the pointers to access and modify the original values.",
+    "marks": 2
+  },
+  {
+    "chapter": 3,
+    "question": "What is the difference between call by value and call by reference in C?",
+    "options": [
+      "There is no difference.",
+      "In call by value, a copy of the argument is passed to the function. In call by reference, the address of the argument is passed.",
+      "Call by value is used for integers, while call by reference is used for floats.",
+      "Call by reference is faster than call by value."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) In call by value, a copy of the argument is passed to the function. In call by reference, the address of the argument is passed.</strong> In call by value, any changes made to the argument inside the function do not affect the original value. In call by reference (achieved using pointers in C), changes made to the argument inside the function do affect the original value.",
+    "marks": 2
+  },
+  {
+    "chapter": 4,
+    "question": "What is the function of the control unit in a CPU?",
+    "options": [
+      "To perform arithmetic operations.",
+      "To direct the flow of data and instructions.",
+      "To store data.",
+      "To communicate with I/O devices."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) To direct the flow of data and instructions.</strong> The control unit is a component of the CPU that directs the operation of the processor. It tells the computer's memory, arithmetic and logic unit, and input and output devices how to respond to the instructions that have been sent to the processor.",
+    "marks": 1
+  },
+  {
+    "chapter": 4,
+    "question": "What is pipelining?",
+    "options": [
+      "A technique to improve the performance of a CPU by overlapping the execution of instructions.",
+      "A type of memory.",
+      "A method of data storage.",
+      "A way to connect multiple CPUs."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A technique to improve the performance of a CPU by overlapping the execution of instructions.</strong> Pipelining is a technique where multiple instructions are overlapped in execution. The pipeline is divided into stages, and each stage completes a part of an instruction in parallel. This increases the instruction throughput.",
+    "marks": 1
+  },
+  {
+    "chapter": 4,
+    "question": "What is cache memory?",
+    "options": [
+      "A large, slow memory.",
+      "A small, fast memory that stores frequently used data.",
+      "A type of permanent storage.",
+      "A memory used by the operating system."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) A small, fast memory that stores frequently used data.</strong> Cache memory is a high-speed volatile computer memory that provides high-speed data access to a processor and stores frequently used computer programs, applications and data. It is faster than main memory (RAM).",
+    "marks": 1
+  },
+  {
+    "chapter": 4,
+    "question": "What is the difference between RISC and CISC architectures?",
+    "options": [
+      "RISC has a larger instruction set than CISC.",
+      "RISC instructions are more complex than CISC instructions.",
+      "RISC has a smaller, simpler instruction set, while CISC has a larger, more complex instruction set.",
+      "There is no difference."
+    ],
+    "answer": "c",
+    "explanation": "The correct answer is <strong>c) RISC has a smaller, simpler instruction set, while CISC has a larger, more complex instruction set.</strong> RISC (Reduced Instruction Set Computer) processors have a small set of simple, highly optimized instructions. CISC (Complex Instruction Set Computer) processors have a large set of complex instructions that can perform multiple operations in a single instruction.",
+    "marks": 1
+  },
+  {
+    "chapter": 4,
+    "question": "What is an embedded system?",
+    "options": [
+      "A general-purpose computer.",
+      "A computer system with a dedicated function within a larger mechanical or electrical system.",
+      "A type of software.",
+      "A programming language."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) A computer system with a dedicated function within a larger mechanical or electrical system.</strong> An embedded system is a combination of computer hardware and software designed for a specific function or functions within a larger system. Examples include microcontrollers in cars, washing machines, and medical devices.",
+    "marks": 1
+  },
+  {
+    "chapter": 4,
+    "question": "What is VHDL?",
+    "options": [
+      "A programming language for general-purpose software.",
+      "A hardware description language used to describe digital and mixed-signal systems.",
+      "A type of computer hardware.",
+      "A software development methodology."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) A hardware description language used to describe digital and mixed-signal systems.</strong> VHDL (VHSIC Hardware Description Language) is used for modeling and simulating digital systems. It can be used to describe the behavior and structure of electronic circuits.",
+    "marks": 1
+  },
+  {
+    "chapter": 4,
+    "question": "Explain the concept of memory hierarchy.",
+    "options": [
+      "A system of organizing memory in a computer system based on speed, cost, and capacity.",
+      "A way to connect multiple memory modules.",
+      "A method of memory allocation.",
+      "A type of memory."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A system of organizing memory in a computer system based on speed, cost, and capacity.</strong> The memory hierarchy is a structure that uses a hierarchy of memory with different speeds. The levels in the hierarchy are, from top to bottom: registers, cache, main memory, and secondary storage. The higher levels are faster but have smaller capacity and are more expensive.",
+    "marks": 2
+  },
+  {
+    "chapter": 4,
+    "question": "What is the difference between multitasking and multiprocessing?",
+    "options": [
+      "There is no difference.",
+      "Multitasking is the execution of multiple tasks over a certain period of time by a single CPU, while multiprocessing is the execution of multiple tasks at the same time by multiple CPUs.",
+      "Multitasking is used in embedded systems, while multiprocessing is used in general-purpose computers.",
+      "Multiprocessing is a type of software, while multitasking is a type of hardware."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) Multitasking is the execution of multiple tasks over a certain period of time by a single CPU, while multiprocessing is the execution of multiple tasks at the same time by multiple CPUs.</strong> Multitasking creates the illusion of parallel execution by rapidly switching between tasks. Multiprocessing achieves true parallel execution by using multiple processors.",
+    "marks": 2
+  },
+  {
+    "chapter": 5,
+    "question": "What are the seven layers of the OSI model?",
+    "options": [
+      "Physical, Data Link, Network, Transport, Session, Presentation, Application",
+      "Physical, Data Link, Network, Transport, Session, Presentation, User",
+      "Physical, Data Link, Network, Transport, Session, Application, Presentation",
+      "Physical, Data Link, Network, Session, Transport, Presentation, Application"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) Physical, Data Link, Network, Transport, Session, Presentation, Application</strong>. The OSI (Open Systems Interconnection) model is a conceptual framework that standardizes the functions of a telecommunication or computing system in seven layers.",
+    "marks": 1
+  },
+  {
+    "chapter": 5,
+    "question": "What is the function of the Network Layer?",
+    "options": [
+      "To provide reliable data transfer.",
+      "To provide logical addressing and routing.",
+      "To transmit raw bits over a communication channel.",
+      "To provide services to the user."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) To provide logical addressing and routing.</strong> The Network Layer is responsible for the logical addressing of devices (e.g., IP addresses) and for determining the best path for data to travel from source to destination (routing).",
+    "marks": 1
+  },
+  {
+    "chapter": 5,
+    "question": "What is the difference between TCP and UDP?",
+    "options": [
+      "TCP is connectionless, while UDP is connection-oriented.",
+      "TCP is faster than UDP.",
+      "TCP is reliable and connection-oriented, while UDP is unreliable and connectionless.",
+      "There is no difference."
+    ],
+    "answer": "c",
+    "explanation": "The correct answer is <strong>c) TCP is reliable and connection-oriented, while UDP is unreliable and connectionless.</strong> TCP (Transmission Control Protocol) establishes a connection before sending data and guarantees delivery. UDP (User Datagram Protocol) is a simpler, faster protocol that does not guarantee delivery.",
+    "marks": 1
+  },
+  {
+    "chapter": 5,
+    "question": "What is an IP address?",
+    "options": [
+      "A physical address of a device.",
+      "A logical address that uniquely identifies a device on a network.",
+      "A port number.",
+      "A type of protocol."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) A logical address that uniquely identifies a device on a network.</strong> An IP (Internet Protocol) address is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.",
+    "marks": 1
+  },
+  {
+    "chapter": 5,
+    "question": "What is DNS?",
+    "options": [
+      "A protocol for sending emails.",
+      "A system for translating domain names to IP addresses.",
+      "A type of network security.",
+      "A network device."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) A system for translating domain names to IP addresses.</strong> The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It translates human-readable domain names (e.g., www.google.com) to machine-readable IP addresses.",
+    "marks": 1
+  },
+  {
+    "chapter": 5,
+    "question": "What is a firewall?",
+    "options": [
+      "A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.",
+      "A type of virus.",
+      "A network device for connecting multiple networks.",
+      "A protocol for secure communication."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.</strong> A firewall acts as a barrier between a trusted internal network and untrusted external networks, such as the Internet.",
+    "marks": 1
+  },
+  {
+    "chapter": 5,
+    "question": "Explain the process of subnetting.",
+    "options": [
+      "Combining multiple networks into one.",
+      "Dividing a large network into smaller, more manageable networks.",
+      "A method of routing.",
+      "A way to assign IP addresses."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) Dividing a large network into smaller, more manageable networks.</strong> Subnetting is the process of dividing a single, large IP network into smaller subnetworks (subnets). This is done by borrowing bits from the host portion of the IP address to create a subnet mask. Subnetting improves security, performance, and manageability.",
+    "marks": 2
+  },
+  {
+    "chapter": 5,
+    "question": "What is the difference between symmetric and asymmetric encryption?",
+    "options": [
+      "There is no difference.",
+      "Symmetric encryption uses the same key for encryption and decryption, while asymmetric encryption uses different keys.",
+      "Symmetric encryption is more secure than asymmetric encryption.",
+      "Asymmetric encryption is faster than symmetric encryption."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) Symmetric encryption uses the same key for encryption and decryption, while asymmetric encryption uses different keys.</strong> In symmetric encryption, both the sender and receiver use the same secret key. In asymmetric encryption (also known as public-key cryptography), there is a pair of keys: a public key for encryption and a private key for decryption.",
+    "marks": 2
+  },
+  {
+    "chapter": 6,
+    "question": "What is a finite automaton?",
+    "options": [
+      "A mathematical model of computation that can recognize regular languages.",
+      "A type of computer.",
+      "A programming language.",
+      "A data structure."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A mathematical model of computation that can recognize regular languages.</strong> A finite automaton (FA) is an abstract machine that has a finite number of states. It is used to recognize patterns in strings of symbols.",
+    "marks": 1
+  },
+  {
+    "chapter": 6,
+    "question": "What is a regular expression?",
+    "options": [
+      "A sequence of characters that defines a search pattern.",
+      "A type of grammar.",
+      "A programming language.",
+      "A data structure."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A sequence of characters that defines a search pattern.</strong> Regular expressions are used to describe a set of strings according to certain syntax rules. They are widely used in text editors, search engines, and programming languages for pattern matching.",
+    "marks": 1
+  },
+  {
+    "chapter": 6,
+    "question": "What is a context-free grammar?",
+    "options": [
+      "A grammar in which the left-hand side of each production rule consists of a single non-terminal symbol.",
+      "A grammar with no rules.",
+      "A grammar that can be recognized by a finite automaton.",
+      "A grammar that is not ambiguous."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A grammar in which the left-hand side of each production rule consists of a single non-terminal symbol.</strong> Context-free grammars are used to describe the syntax of programming languages. They can be recognized by a pushdown automaton.",
+    "marks": 1
+  },
+  {
+    "chapter": 6,
+    "question": "What is a Turing machine?",
+    "options": [
+      "A mathematical model of computation that can simulate any algorithm.",
+      "A type of computer.",
+      "A programming language.",
+      "A data structure."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A mathematical model of computation that can simulate any algorithm.</strong> A Turing machine is a theoretical machine that manipulates symbols on a strip of tape according to a table of rules. It is a powerful model of computation that can be used to simulate any computer algorithm.",
+    "marks": 1
+  },
+  {
+    "chapter": 6,
+    "question": "What is the difference between a DFA and an NFA?",
+    "options": [
+      "A DFA can have multiple next states for a given input, while an NFA can have only one.",
+      "An NFA can have multiple next states for a given input, while a DFA can have only one.",
+      "A DFA is more powerful than an NFA.",
+      "There is no difference."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) An NFA can have multiple next states for a given input, while a DFA can have only one.</strong> A DFA (Deterministic Finite Automaton) has exactly one transition for each symbol from each state. An NFA (Nondeterministic Finite Automaton) can have zero, one, or more transitions for each symbol from each state. However, DFAs and NFAs are equivalent in power.",
+    "marks": 1
+  },
+  {
+    "chapter": 6,
+    "question": "What is computer graphics?",
+    "options": [
+      "The field of creating and manipulating images using computers.",
+      "A type of hardware.",
+      "A programming language.",
+      "A data structure."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) The field of creating and manipulating images using computers.</strong> Computer graphics is a sub-field of computer science which studies methods for digitally synthesizing and manipulating visual content. It involves creating, storing, and manipulating models and images.",
+    "marks": 1
+  },
+  {
+    "chapter": 6,
+    "question": "What is the Pumping Lemma for regular languages used for?",
+    "options": [
+      "To prove that a language is regular.",
+      "To prove that a language is not regular.",
+      "To convert a regular expression to a finite automaton.",
+      "To minimize a finite automaton."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) To prove that a language is not regular.</strong> The Pumping Lemma for regular languages is a theorem that states that all regular languages have a special property. If a language does not have this property, it cannot be regular. It is used to prove that a given language is not regular.",
+    "marks": 2
+  },
+  {
+    "chapter": 6,
+    "question": "Explain the Cohen-Sutherland line clipping algorithm.",
+    "options": [
+      "It is an algorithm for clipping polygons.",
+      "It is an algorithm for clipping lines against a rectangular window.",
+      "It is an algorithm for 3D transformation.",
+      "It is an algorithm for shading."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) It is an algorithm for clipping lines against a rectangular window.</strong> The Cohen-Sutherland algorithm is a line clipping algorithm. It divides the 2D space into 9 regions and assigns a 4-bit code to each region. The algorithm uses these codes to quickly determine if a line is completely inside, completely outside, or partially inside the clipping window.",
+    "marks": 2
+  },
+  {
+    "chapter": 7,
+    "question": "What is a data structure?",
+    "options": [
+      "A way of organizing and storing data in a computer so that it can be accessed and modified efficiently.",
+      "A type of algorithm.",
+      "A programming language.",
+      "A hardware component."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A way of organizing and storing data in a computer so that it can be accessed and modified efficiently.</strong> Data structures are fundamental concepts of computer science. Examples include arrays, linked lists, stacks, queues, trees, and graphs.",
+    "marks": 1
+  },
+  {
+    "chapter": 7,
+    "question": "What is the difference between a stack and a queue?",
+    "options": [
+      "A stack is a LIFO data structure, while a queue is a FIFO data structure.",
+      "A stack is a FIFO data structure, while a queue is a LIFO data structure.",
+      "There is no difference.",
+      "A stack is used for sorting, while a queue is used for searching."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A stack is a LIFO data structure, while a queue is a FIFO data structure.</strong> LIFO stands for Last-In, First-Out, meaning the last element added to the stack is the first one to be removed. FIFO stands for First-In, First-Out, meaning the first element added to the queue is the first one to be removed.",
+    "marks": 1
+  },
+  {
+    "chapter": 7,
+    "question": "What is a binary search tree?",
+    "options": [
+      "A tree data structure in which each node has at most two children, and the left child is less than the parent, and the right child is greater than the parent.",
+      "A tree data structure in which each node has at most one child.",
+      "A tree data structure in which each node has at most three children.",
+      "A tree data structure that is always balanced."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A tree data structure in which each node has at most two children, and the left child is less than the parent, and the right child is greater than the parent.</strong> This property makes searching for an element in a binary search tree very efficient.",
+    "marks": 1
+  },
+  {
+    "chapter": 7,
+    "question": "What is the time complexity of bubble sort?",
+    "options": ["O(n)", "O(n log n)", "O(n^2)", "O(1)"],
+    "answer": "c",
+    "explanation": "The correct answer is <strong>c) O(n^2)</strong>. Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. Its worst-case and average-case time complexity is O(n^2).",
+    "marks": 1
+  },
+  {
+    "chapter": 7,
+    "question": "What is hashing?",
+    "options": [
+      "A technique to map data of arbitrary size to a fixed-size value.",
+      "A sorting algorithm.",
+      "A searching algorithm.",
+      "A data structure."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A technique to map data of arbitrary size to a fixed-size value.</strong> Hashing is used to index and retrieve items in a database because it is faster to find the item using the shorter hashed key than to find it using the original value. It is used in hash tables.",
+    "marks": 1
+  },
+  {
+    "chapter": 7,
+    "question": "What is an operating system?",
+    "options": [
+      "A software that manages computer hardware and software resources and provides common services for computer programs.",
+      "A type of hardware.",
+      "A programming language.",
+      "A data structure."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A software that manages computer hardware and software resources and provides common services for computer programs.</strong> The operating system is the most important software that runs on a computer. It manages the computer's memory and processes, as well as all of its software and hardware.",
+    "marks": 1
+  },
+  {
+    "chapter": 7,
+    "question": "Explain the concept of virtual memory.",
+    "options": [
+      "A memory management technique that provides an idealized abstraction of the storage resources that are actually available on a given machine.",
+      "A type of physical memory.",
+      "A memory that is not real.",
+      "A memory used by virtual machines."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A memory management technique that provides an idealized abstraction of the storage resources that are actually available on a given machine.</strong> Virtual memory allows a computer to compensate for shortages of physical memory by temporarily transferring pages of data from RAM to disk storage. This allows a program to use more memory than is physically available.",
+    "marks": 2
+  },
+  {
+    "chapter": 7,
+    "question": "What is the difference between a process and a thread?",
+    "options": [
+      "There is no difference.",
+      "A process is a program in execution, while a thread is a lightweight process that can run in parallel with other threads within the same process.",
+      "A process is a hardware component, while a thread is a software component.",
+      "A process is used for I/O operations, while a thread is used for CPU operations."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) A process is a program in execution, while a thread is a lightweight process that can run in parallel with other threads within the same process.</strong> A process has its own memory space, while threads within the same process share the same memory space. This makes communication between threads faster than communication between processes.",
+    "marks": 2
+  },
+  {
+    "chapter": 8,
+    "question": "What is software engineering?",
+    "options": [
+      "The process of designing, developing, testing, and maintaining software.",
+      "The process of writing code.",
+      "The process of using software.",
+      "The process of selling software."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) The process of designing, developing, testing, and maintaining software.</strong> Software engineering is a systematic, disciplined, and quantifiable approach to the development, operation, and maintenance of software.",
+    "marks": 1
+  },
+  {
+    "chapter": 8,
+    "question": "What is the waterfall model?",
+    "options": [
+      "A sequential software development process in which progress is seen as flowing steadily downwards (like a waterfall) through the phases of conception, initiation, analysis, design, construction, testing, deployment and maintenance.",
+      "An iterative software development process.",
+      "An agile software development process.",
+      "A model for testing software."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A sequential software development process...</strong> The waterfall model is a traditional software development model that is easy to understand and use. However, it is not flexible and does not allow for changes in requirements.",
+    "marks": 1
+  },
+  {
+    "chapter": 8,
+    "question": "What is agile software development?",
+    "options": [
+      "A set of software development methodologies based on iterative development, where requirements and solutions evolve through collaboration between self-organizing cross-functional teams.",
+      "A sequential software development process.",
+      "A model for designing software.",
+      "A model for testing software."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A set of software development methodologies based on iterative development...</strong> Agile methodologies, such as Scrum and Kanban, emphasize flexibility, customer collaboration, and rapid delivery of working software.",
+    "marks": 1
+  },
+  {
+    "chapter": 8,
+    "question": "What is UML?",
+    "options": [
+      "A general-purpose, developmental, modeling language in the field of software engineering that is intended to provide a standard way to visualize the design of a system.",
+      "A programming language.",
+      "A software development methodology.",
+      "A testing framework."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A general-purpose, developmental, modeling language...</strong> UML (Unified Modeling Language) is used to create visual models of software systems. It includes diagrams for representing structure, behavior, and interaction.",
+    "marks": 1
+  },
+  {
+    "chapter": 8,
+    "question": "What is object-oriented programming?",
+    "options": [
+      "A programming paradigm based on the concept of 'objects', which can contain data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).",
+      "A programming paradigm based on functions.",
+      "A programming paradigm based on logic.",
+      "A programming paradigm based on procedures."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A programming paradigm based on the concept of 'objects'...</strong> OOP concepts include encapsulation, inheritance, and polymorphism. Languages like Java, C++, and Python support OOP.",
+    "marks": 1
+  },
+  {
+    "chapter": 8,
+    "question": "What is the difference between verification and validation?",
+    "options": [
+      "Verification is the process of checking that the software meets the user's requirements, while validation is the process of checking that the software has been built correctly.",
+      "Verification is the process of checking that the software has been built correctly, while validation is the process of checking that the software meets the user's requirements.",
+      "There is no difference.",
+      "Verification is done by the developer, while validation is done by the user."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) Verification is the process of checking that the software has been built correctly, while validation is the process of checking that the software meets the user's requirements.</strong> A simple way to remember this is: Verification - 'Are we building the product right?'. Validation - 'Are we building the right product?'.",
+    "marks": 1
+  },
+  {
+    "chapter": 8,
+    "question": "Explain the concept of polymorphism in OOP.",
+    "options": [
+      "The ability of an object to take on many forms.",
+      "The process of hiding the implementation details of an object.",
+      "The process of creating a new class from an existing class.",
+      "The process of combining data and methods into a single unit."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) The ability of an object to take on many forms.</strong> Polymorphism allows objects of different classes to be treated as objects of a common superclass. It is often implemented using method overriding, where a subclass provides a specific implementation of a method that is already provided by its superclass.",
+    "marks": 2
+  },
+  {
+    "chapter": 8,
+    "question": "What is the difference between a use case and a user story?",
+    "options": [
+      "There is no difference.",
+      "A use case is a more formal and detailed description of a user's interaction with a system, while a user story is a short, simple description of a feature told from the perspective of the person who desires the new capability.",
+      "A use case is used in agile development, while a user story is used in waterfall development.",
+      "A use case is written by the developer, while a user story is written by the user."
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) A use case is a more formal and detailed description...</strong> Use cases are typically more detailed and structured, often including preconditions, postconditions, and alternative flows. User stories are more lightweight and are used to facilitate conversation and collaboration in agile teams.",
+    "marks": 2
+  },
+  {
+    "chapter": 9,
+    "question": "What is artificial intelligence?",
+    "options": [
+      "The simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+      "A type of hardware.",
+      "A programming language.",
+      "A data structure."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) The simulation of human intelligence in machines...</strong> AI includes areas like machine learning, natural language processing, computer vision, and robotics.",
+    "marks": 1
+  },
+  {
+    "chapter": 9,
+    "question": "What is machine learning?",
+    "options": [
+      "A subset of AI that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.",
+      "A type of AI that can think like humans.",
+      "A type of AI that can see and understand images.",
+      "A type of AI that can understand human language."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A subset of AI that provides systems the ability to automatically learn...</strong> Machine learning algorithms build a model based on sample data, known as 'training data', in order to make predictions or decisions without being explicitly programmed to do so.",
+    "marks": 1
+  },
+  {
+    "chapter": 9,
+    "question": "What is a neural network?",
+    "options": [
+      "A series of algorithms that endeavors to recognize underlying relationships in a set of data through a process that mimics the way the human brain operates.",
+      "A type of computer.",
+      "A programming language.",
+      "A data structure."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A series of algorithms that endeavors to recognize underlying relationships...</strong> Neural networks are a key component of deep learning, a subfield of machine learning.",
+    "marks": 1
+  },
+  {
+    "chapter": 9,
+    "question": "What is the difference between supervised and unsupervised learning?",
+    "options": [
+      "Supervised learning uses labeled data, while unsupervised learning uses unlabeled data.",
+      "Supervised learning uses unlabeled data, while unsupervised learning uses labeled data.",
+      "There is no difference.",
+      "Supervised learning is used for classification, while unsupervised learning is used for regression."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) Supervised learning uses labeled data, while unsupervised learning uses unlabeled data.</strong> In supervised learning, the algorithm learns from a labeled dataset, where each data point is tagged with a correct output. In unsupervised learning, the algorithm learns from an unlabeled dataset and tries to find patterns and relationships in the data.",
+    "marks": 1
+  },
+  {
+    "chapter": 9,
+    "question": "What is natural language processing?",
+    "options": [
+      "A field of AI that gives computers the ability to understand, interpret, and generate human language.",
+      "A field of AI that gives computers the ability to see and understand images.",
+      "A field of AI that gives computers the ability to learn from data.",
+      "A field of AI that gives computers the ability to play games."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A field of AI that gives computers the ability to understand, interpret, and generate human language.</strong> NLP is used in applications like machine translation, sentiment analysis, and chatbots.",
+    "marks": 1
+  },
+  {
+    "chapter": 9,
+    "question": "What is an expert system?",
+    "options": [
+      "A computer system that emulates the decision-making ability of a human expert.",
+      "A type of AI that can learn from data.",
+      "A type of AI that can see and understand images.",
+      "A type of AI that can understand human language."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A computer system that emulates the decision-making ability of a human expert.</strong> Expert systems are designed to solve complex problems by reasoning through bodies of knowledge, represented mainly as if-then rules rather than through conventional procedural code.",
+    "marks": 1
+  },
+  {
+    "chapter": 9,
+    "question": "Explain the concept of a genetic algorithm.",
+    "options": [
+      "A search heuristic that is inspired by Charles Darwin's theory of natural evolution.",
+      "A sorting algorithm.",
+      "A searching algorithm.",
+      "A data structure."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A search heuristic that is inspired by Charles Darwin's theory of natural evolution.</strong> Genetic algorithms are a class of optimization algorithms. They use concepts like selection, crossover, and mutation to evolve a population of candidate solutions towards an optimal solution.",
+    "marks": 2
+  },
+  {
+    "chapter": 9,
+    "question": "What is the difference between a greedy algorithm and a dynamic programming algorithm?",
+    "options": [
+      "A greedy algorithm makes the locally optimal choice at each step with the hope of finding a global optimum, while a dynamic programming algorithm breaks down a problem into smaller overlapping subproblems and solves each subproblem only once.",
+      "A greedy algorithm is always optimal, while a dynamic programming algorithm is not.",
+      "A dynamic programming algorithm is always faster than a greedy algorithm.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A greedy algorithm makes the locally optimal choice...</strong> Greedy algorithms do not always find the global optimum, but they are often faster and simpler to implement. Dynamic programming guarantees finding the optimal solution by solving all subproblems and storing their results.",
+    "marks": 2
+  },
+  {
+    "chapter": 10,
+    "question": "What is project management?",
+    "options": [
+      "The process of leading the work of a team to achieve goals and meet success criteria at a specified time.",
+      "The process of writing code.",
+      "The process of using software.",
+      "The process of selling software."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) The process of leading the work of a team to achieve goals and meet success criteria at a specified time.</strong> Project management involves planning, executing, monitoring, and controlling a project to achieve its objectives.",
+    "marks": 1
+  },
+  {
+    "chapter": 10,
+    "question": "What is a Gantt chart?",
+    "options": [
+      "A type of bar chart that illustrates a project schedule.",
+      "A type of pie chart that shows the budget of a project.",
+      "A type of graph that shows the dependencies between tasks.",
+      "A type of diagram that shows the organizational structure of a project."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A type of bar chart that illustrates a project schedule.</strong> Gantt charts are used to plan and schedule projects. They show the start and finish dates of the terminal elements and summary elements of a project.",
+    "marks": 1
+  },
+  {
+    "chapter": 10,
+    "question": "What is the critical path in a project?",
+    "options": [
+      "The sequence of stages determining the minimum time needed for an operation.",
+      "The shortest path in a project network.",
+      "The path with the most resources.",
+      "The path with the least risk."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) The sequence of stages determining the minimum time needed for an operation.</strong> The critical path is the longest sequence of dependent tasks in a project. Any delay in a critical path task will delay the entire project.",
+    "marks": 1
+  },
+  {
+    "chapter": 10,
+    "question": "What is risk management in a project?",
+    "options": [
+      "The process of identifying, assessing, and controlling threats to an organization's capital and earnings.",
+      "The process of managing the project team.",
+      "The process of managing the project budget.",
+      "The process of managing the project schedule."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) The process of identifying, assessing, and controlling threats...</strong> Project risk management involves identifying potential risks, analyzing their impact, and developing strategies to mitigate them.",
+    "marks": 1
+  },
+  {
+    "chapter": 10,
+    "question": "What is a stakeholder in a project?",
+    "options": [
+      "Any person, group, or organization that can affect or be affected by a project.",
+      "A member of the project team.",
+      "The project manager.",
+      "The customer."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) Any person, group, or organization that can affect or be affected by a project.</strong> Stakeholders can be internal or external to the organization. They have an interest in the project's outcome.",
+    "marks": 1
+  },
+  {
+    "chapter": 10,
+    "question": "What is the purpose of a project charter?",
+    "options": [
+      "To formally authorize the existence of a project and provide the project manager with the authority to apply organizational resources to project activities.",
+      "To list all the tasks in a project.",
+      "To list all the risks in a project.",
+      "To list all the stakeholders in a project."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To formally authorize the existence of a project...</strong> The project charter is a key document in project management. It outlines the project's objectives, scope, and stakeholders.",
+    "marks": 1
+  },
+  {
+    "chapter": 10,
+    "question": "Explain the difference between a project and a program.",
+    "options": [
+      "A project is a temporary endeavor undertaken to create a unique product, service, or result, while a program is a group of related projects managed in a coordinated way to obtain benefits and control not available from managing them individually.",
+      "A project is a small program.",
+      "A program is a small project.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A project is a temporary endeavor...</strong> A program is a larger undertaking that may consist of multiple projects. For example, building a new hospital could be a program, with the construction of the building, the installation of equipment, and the hiring of staff as individual projects.",
+    "marks": 2
+  },
+  {
+    "chapter": 10,
+    "question": "What is the difference between PERT and CPM?",
+    "options": [
+      "PERT is a probabilistic model, while CPM is a deterministic model.",
+      "PERT is used for small projects, while CPM is used for large projects.",
+      "PERT is used for research and development projects, while CPM is used for construction projects.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) PERT is a probabilistic model, while CPM is a deterministic model.</strong> PERT (Program Evaluation and Review Technique) uses three time estimates (optimistic, pessimistic, and most likely) to calculate the expected duration of a task. CPM (Critical Path Method) uses a single time estimate for each task. PERT is better suited for projects with uncertainty, while CPM is better for projects with predictable tasks.",
+    "marks": 2
+  }
+]

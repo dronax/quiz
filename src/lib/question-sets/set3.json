@@ -1,0 +1,392 @@
+[
+  {
+    "chapter": 1,
+    "question": "The superposition theorem is applicable to...",
+    "options": [
+      "linear circuits only",
+      "non-linear circuits only",
+      "both linear and non-linear circuits",
+      "circuits with time-varying elements"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) linear circuits only</strong>. The superposition theorem states that in a linear circuit with multiple sources, the current or voltage for any element is the algebraic sum of the currents or voltages produced by each source acting independently.",
+    "marks": 1
+  },
+  {
+    "chapter": 1,
+    "question": "What is the power factor in an AC circuit?",
+    "options": [
+      "The ratio of true power to apparent power.",
+      "The ratio of apparent power to true power.",
+      "The ratio of reactive power to true power.",
+      "The ratio of true power to reactive power."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) The ratio of true power to apparent power.</strong> The power factor is a measure of how effectively electrical power is being used. A power factor of 1 indicates that all the power is being used for useful work.",
+    "marks": 1
+  },
+  {
+    "chapter": 2,
+    "question": "What is the main advantage of using Gray code?",
+    "options": [
+      "Only one bit changes between successive values.",
+      "It is a weighted code.",
+      "It is an error-correcting code.",
+      "It is easy to perform arithmetic operations."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) Only one bit changes between successive values.</strong> This property is useful in applications where errors can occur if multiple bits change at the same time, such as in rotary encoders.",
+    "marks": 1
+  },
+  {
+    "chapter": 2,
+    "question": "What is a programmable logic array (PLA)?",
+    "options": [
+      "A type of programmable logic device with a programmable AND array and a programmable OR array.",
+      "A type of programmable logic device with a fixed AND array and a programmable OR array.",
+      "A type of programmable logic device with a programmable AND array and a fixed OR array.",
+      "A type of memory device."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A type of programmable logic device with a programmable AND array and a programmable OR array.</strong> PLAs are more flexible than PALs (Programmable Array Logic) because both the AND and OR planes are programmable.",
+    "marks": 1
+  },
+  {
+    "chapter": 3,
+    "question": "What is the difference between `gets()` and `fgets()` in C?",
+    "options": [
+      "`fgets()` is safer because it can be told the size of the buffer to read into, preventing buffer overflows.",
+      "`gets()` is safer because it automatically null-terminates the string.",
+      "`fgets()` can only read from files, while `gets()` can only read from standard input.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) `fgets()` is safer...</strong> The `gets()` function is inherently unsafe because it does not perform bounds checking and can lead to buffer overflows. It is recommended to use `fgets()` instead.",
+    "marks": 1
+  },
+  {
+    "chapter": 3,
+    "question": "What is a dangling pointer?",
+    "options": [
+      "A pointer that points to a memory location that has been deallocated.",
+      "A pointer that has not been initialized.",
+      "A pointer that points to a null value.",
+      "A pointer that points to an invalid address."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A pointer that points to a memory location that has been deallocated.</strong> Accessing a dangling pointer can lead to unpredictable behavior and crashes.",
+    "marks": 1
+  },
+  {
+    "chapter": 4,
+    "question": "What is an instruction set architecture (ISA)?",
+    "options": [
+      "The part of the computer architecture related to programming, including the native data types, instructions, registers, addressing modes, memory architecture, interrupt and exception handling, and external I/O.",
+      "The physical design of the CPU.",
+      "The microarchitecture of the CPU.",
+      "The instruction set of a programming language."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) The part of the computer architecture related to programming...</strong> The ISA is the interface between the hardware and the software.",
+    "marks": 1
+  },
+  {
+    "chapter": 4,
+    "question": "What is a bus in a computer?",
+    "options": [
+      "A communication system that transfers data between components inside a computer, or between computers.",
+      "A type of memory.",
+      "A type of processor.",
+      "A type of software."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A communication system that transfers data between components...</strong> A bus consists of a set of wires that carry data, addresses, and control signals.",
+    "marks": 1
+  },
+  {
+    "chapter": 5,
+    "question": "What is a MAC address?",
+    "options": [
+      "A unique identifier assigned to a network interface controller (NIC) for use as a network address in communications within a network segment.",
+      "A logical address of a device.",
+      "A port number.",
+      "A type of protocol."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A unique identifier assigned to a network interface controller...</strong> The MAC address is a physical address that is hardcoded into the NIC by the manufacturer.",
+    "marks": 1
+  },
+  {
+    "chapter": 5,
+    "question": "What is a switch in a network?",
+    "options": [
+      "A network device that connects devices on the same network and uses MAC addresses to forward data to the correct destination.",
+      "A network device that connects different networks.",
+      "A network device that modulates and demodulates signals.",
+      "A network device that provides security."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A network device that connects devices on the same network...</strong> Switches operate at the Data Link Layer of the OSI model.",
+    "marks": 1
+  },
+  {
+    "chapter": 6,
+    "question": "What is a pushdown automaton?",
+    "options": [
+      "A type of automaton that employs a stack.",
+      "A type of automaton that employs a queue.",
+      "A type of automaton that employs a tape.",
+      "A type of automaton that has no memory."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A type of automaton that employs a stack.</strong> Pushdown automata are more capable than finite automata and can recognize context-free languages.",
+    "marks": 1
+  },
+  {
+    "chapter": 6,
+    "question": "What is rasterization in computer graphics?",
+    "options": [
+      "The task of taking an image described in a vector graphics format (shapes) and converting it into a raster image (pixels or dots) for output on a video display or printer.",
+      "The task of taking a raster image and converting it into a vector graphics format.",
+      "The task of clipping an image.",
+      "The task of shading an image."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) The task of taking an image described in a vector graphics format...</strong> Rasterization is a fundamental step in the rendering pipeline.",
+    "marks": 1
+  },
+  {
+    "chapter": 7,
+    "question": "What is a heap data structure?",
+    "options": [
+      "A specialized tree-based data structure that satisfies the heap property.",
+      "A linear data structure.",
+      "A graph data structure.",
+      "A stack data structure."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A specialized tree-based data structure that satisfies the heap property.</strong> In a max heap, for any given node C, if P is a parent node of C, then the key (the value) of P is greater than or equal to the key of C. In a min heap, the key of P is less than or equal to the key of C.",
+    "marks": 1
+  },
+  {
+    "chapter": 7,
+    "question": "What is the difference between an algorithm and a program?",
+    "options": [
+      "An algorithm is a set of steps to solve a problem, while a program is an implementation of an algorithm in a specific programming language.",
+      "An algorithm is a program.",
+      "A program is an algorithm.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) An algorithm is a set of steps to solve a problem...</strong> An algorithm is a conceptual idea, while a program is a concrete implementation.",
+    "marks": 1
+  },
+  {
+    "chapter": 8,
+    "question": "What is configuration management in software engineering?",
+    "options": [
+      "The process of tracking and controlling changes in the software.",
+      "The process of managing the project team.",
+      "The process of managing the project budget.",
+      "The process of managing the project schedule."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) The process of tracking and controlling changes in the software.</strong> Configuration management is important for maintaining the integrity of the software product throughout its lifecycle.",
+    "marks": 1
+  },
+  {
+    "chapter": 8,
+    "question": "What is a design pattern in software engineering?",
+    "options": [
+      "A general reusable solution to a commonly occurring problem within a given context in software design.",
+      "A specific implementation of an algorithm.",
+      "A way of writing code.",
+      "A way of testing software."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A general reusable solution to a commonly occurring problem...</strong> Design patterns are not a finished design that can be transformed directly into code. They are a description or template for how to solve a problem that can be used in many different situations.",
+    "marks": 1
+  },
+  {
+    "chapter": 9,
+    "question": "What is a fuzzy logic system?",
+    "options": [
+      "A system that is based on the principles of fuzzy logic, which is a form of many-valued logic in which the truth values of variables may be any real number between 0 and 1.",
+      "A system that is based on binary logic.",
+      "A system that is based on probability theory.",
+      "A system that is based on formal logic."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A system that is based on the principles of fuzzy logic...</strong> Fuzzy logic is used to handle the concept of partial truth, where the truth value may range between completely true and completely false.",
+    "marks": 1
+  },
+  {
+    "chapter": 9,
+    "question": "What is computer vision?",
+    "options": [
+      "A field of AI that trains computers to interpret and understand the visual world.",
+      "A field of AI that trains computers to understand human language.",
+      "A field of AI that trains computers to learn from data.",
+      "A field of AI that trains computers to play games."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A field of AI that trains computers to interpret and understand the visual world.</strong> Computer vision is used in applications like self-driving cars, facial recognition, and medical imaging.",
+    "marks": 1
+  },
+  {
+    "chapter": 10,
+    "question": "What is a project milestone?",
+    "options": [
+      "A specific point in time within a project lifecycle that is used to measure the progress of a project.",
+      "A task in a project.",
+      "A risk in a project.",
+      "A stakeholder in a project."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A specific point in time within a project lifecycle...</strong> Milestones are used to mark the completion of a major phase of work.",
+    "marks": 1
+  },
+  {
+    "chapter": 10,
+    "question": "What is the triple constraint in project management?",
+    "options": [
+      "The three most significant restrictions on any project: scope, time, and cost.",
+      "The three most important stakeholders in a project: the project manager, the project team, and the customer.",
+      "The three most important documents in a project: the project charter, the project plan, and the project schedule.",
+      "The three most important phases in a project: planning, execution, and closure."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) The three most significant restrictions on any project: scope, time, and cost.</strong> The triple constraint states that the quality of a project is constrained by its scope, time, and cost. A change in one constraint will affect the others.",
+    "marks": 1
+  },
+  {
+    "chapter": 1,
+    "question": "A 12V source is connected in parallel with a 4Ω resistor and a 6Ω resistor. What is the total current flowing from the source?",
+    "options": [
+      "5A",
+      "2A",
+      "3A",
+      "1A"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 5A</strong>. In a parallel circuit, the total resistance is given by 1/R_total = 1/R1 + 1/R2. So, 1/R_total = 1/4 + 1/6 = (3+2)/12 = 5/12. R_total = 12/5 = 2.4Ω. The total current is I = V/R_total = 12V / 2.4Ω = 5A.",
+    "marks": 2
+  },
+  {
+    "chapter": 2,
+    "question": "Design a 4-to-1 multiplexer using basic logic gates.",
+    "options": [
+      "It requires 4 AND gates, 2 NOT gates, and 1 OR gate.",
+      "It requires 2 AND gates, 4 NOT gates, and 1 OR gate.",
+      "It requires 4 OR gates, 2 NOT gates, and 1 AND gate.",
+      "It requires 2 OR gates, 4 NOT gates, and 1 AND gate."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) It requires 4 AND gates, 2 NOT gates, and 1 OR gate.</strong> A 4-to-1 multiplexer has 4 data inputs, 2 select lines, and 1 output. The select lines are used to choose which data input is passed to the output. The logic expression for the output is Y = S1'S0'I0 + S1'S0I1 + S1S0'I2 + S1S0I3. This requires four 3-input AND gates, two NOT gates, and one 4-input OR gate.",
+    "marks": 2
+  },
+  {
+    "chapter": 3,
+    "question": "Write a C program to find the factorial of a number using recursion.",
+    "options": [
+      "int factorial(int n) { if (n == 0) return 1; else return n * factorial(n-1); }",
+      "int factorial(int n) { int i, fact = 1; for (i = 1; i <= n; i++) fact *= i; return fact; }",
+      "int factorial(int n) { return n * (n-1); }",
+      "int factorial(int n) { return n + factorial(n-1); }"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) int factorial(int n) { if (n == 0) return 1; else return n * factorial(n-1); }</strong>. This is a recursive function because it calls itself. The base case is when n is 0, in which case the function returns 1.",
+    "marks": 2
+  },
+  {
+    "chapter": 4,
+    "question": "A CPU has a 16-bit address bus. What is the maximum amount of memory that can be addressed by this CPU?",
+    "options": [
+      "64KB",
+      "32KB",
+      "128KB",
+      "256KB"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 64KB</strong>. A 16-bit address bus can address 2^16 = 65536 memory locations. Since 1KB = 1024 bytes, this is equal to 65536 / 1024 = 64KB.",
+    "marks": 2
+  },
+  {
+    "chapter": 5,
+    "question": "What is the difference between HTTP and HTTPS?",
+    "options": [
+      "HTTPS is the secure version of HTTP, where communications are encrypted.",
+      "HTTP is faster than HTTPS.",
+      "HTTPS is used for sending emails, while HTTP is used for browsing the web.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) HTTPS is the secure version of HTTP...</strong> HTTPS uses SSL/TLS to encrypt the communication between the client and the server. This protects the data from eavesdropping and tampering.",
+    "marks": 2
+  },
+  {
+    "chapter": 6,
+    "question": "What is the difference between a Mealy machine and a Moore machine?",
+    "options": [
+      "In a Mealy machine, the output depends on both the current state and the current input, while in a Moore machine, the output depends only on the current state.",
+      "In a Moore machine, the output depends on both the current state and the current input, while in a Mealy machine, the output depends only on the current state.",
+      "Mealy machines are more powerful than Moore machines.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) In a Mealy machine, the output depends on both the current state and the current input...</strong> Mealy and Moore machines are two types of finite automata with output. They are equivalent in power.",
+    "marks": 2
+  },
+  {
+    "chapter": 7,
+    "question": "What is the time complexity of merge sort?",
+    "options": [
+      "O(n log n)",
+      "O(n^2)",
+      "O(n)",
+      "O(1)"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) O(n log n)</strong>. Merge sort is a divide-and-conquer algorithm that has a time complexity of O(n log n) in all cases (worst, average, and best).",
+    "marks": 2
+  },
+  {
+    "chapter": 8,
+    "question": "What is the difference between a test case and a test script?",
+    "options": [
+      "A test case is a set of conditions or variables under which a tester will determine whether a system under test satisfies requirements or works correctly. A test script is a set of instructions that is performed on a system under test to verify that the system performs as expected.",
+      "A test case is a set of instructions, while a test script is a set of conditions.",
+      "A test case is written by a developer, while a test script is written by a tester.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A test case is a set of conditions...</strong> Test cases are typically written in a human-readable format, while test scripts are written in a machine-readable format.",
+    "marks": 2
+  },
+  {
+    "chapter": 9,
+    "question": "What is the A* search algorithm?",
+    "options": [
+      "An informed search algorithm that uses a heuristic function to guide the search towards the goal.",
+      "An uninformed search algorithm.",
+      "A greedy search algorithm.",
+      "A local search algorithm."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) An informed search algorithm...</strong> A* is guaranteed to find an optimal solution if the heuristic function is admissible (i.e., it never overestimates the cost to reach the goal).",
+    "marks": 2
+  },
+  {
+    "chapter": 10,
+    "question": "A project has a 60% chance of a $100,000 profit and a 40% chance of a $50,000 loss. What is the expected monetary value (EMV) of the project?",
+    "options": [
+      "$40,000",
+      "$60,000",
+      "$20,000",
+      "$10,000"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) $40,000</strong>. The EMV is calculated as follows: EMV = (0.60 * $100,000) - (0.40 * $50,000) = $60,000 - $20,000 = $40,000.",
+    "marks": 2
+  }
+]

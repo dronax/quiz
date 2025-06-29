@@ -1,0 +1,392 @@
+[
+  {
+    "chapter": 1,
+    "question": "What is the maximum power transfer theorem?",
+    "options": [
+      "A theorem that states that the maximum power is transferred from a source to a load when the load resistance is equal to the source resistance.",
+      "A theorem that states that the maximum power is transferred from a source to a load when the load resistance is zero.",
+      "A theorem that states that the maximum power is transferred from a source to a load when the load resistance is infinite.",
+      "A theorem that states that the maximum power is transferred from a source to a load when the load resistance is half the source resistance."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A theorem that states that the maximum power is transferred from a source to a load when the load resistance is equal to the source resistance.</strong> This theorem is important in the design of amplifiers, antennas, and other electronic circuits.",
+    "marks": 1
+  },
+  {
+    "chapter": 1,
+    "question": "What is a three-phase system?",
+    "options": [
+      "A type of polyphase system where three sinusoidal voltages of the same frequency and amplitude are displaced from each other by 120 degrees.",
+      "A type of polyphase system where two sinusoidal voltages of the same frequency and amplitude are displaced from each other by 90 degrees.",
+      "A type of polyphase system where four sinusoidal voltages of the same frequency and amplitude are displaced from each other by 90 degrees.",
+      "A type of single-phase system."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A type of polyphase system where three sinusoidal voltages...</strong> Three-phase systems are widely used for power generation, transmission, and distribution.",
+    "marks": 1
+  },
+  {
+    "chapter": 2,
+    "question": "What is a register file?",
+    "options": [
+      "A set of registers in a CPU.",
+      "A single register in a CPU.",
+      "A type of memory.",
+      "A type of bus."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A set of registers in a CPU.</strong> The register file is a small, fast memory that is used to store data and instructions that are currently being used by the CPU.",
+    "marks": 1
+  },
+  {
+    "chapter": 2,
+    "question": "What is a state diagram?",
+    "options": [
+      "A graphical representation of a finite automaton.",
+      "A graphical representation of a Boolean expression.",
+      "A graphical representation of a logic circuit.",
+      "A graphical representation of a truth table."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A graphical representation of a finite automaton.</strong> A state diagram shows the states of a finite automaton and the transitions between them.",
+    "marks": 1
+  },
+  {
+    "chapter": 3,
+    "question": "What is a file pointer in C?",
+    "options": [
+      "A pointer to a `FILE` structure that is used to identify a file.",
+      "A pointer to the beginning of a file.",
+      "A pointer to the end of a file.",
+      "A pointer to the current position in a file."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A pointer to a `FILE` structure...</strong> The `FILE` structure contains information about the file, such as its name, status, and current position.",
+    "marks": 1
+  },
+  {
+    "chapter": 3,
+    "question": "What is the purpose of the `fprintf()` function in C?",
+    "options": [
+      "To write formatted data to a file.",
+      "To read formatted data from a file.",
+      "To write a character to a file.",
+      "To read a character from a file."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To write formatted data to a file.</strong> The `fprintf()` function is similar to the `printf()` function, but it writes to a file instead of the console.",
+    "marks": 1
+  },
+  {
+    "chapter": 4,
+    "question": "What is a microinstruction?",
+    "options": [
+      "A low-level instruction that controls the micro-operations of a CPU.",
+      "A high-level instruction in a programming language.",
+      "A type of data.",
+      "A type of memory."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A low-level instruction that controls the micro-operations of a CPU.</strong> Microinstructions are stored in a special memory called the control store.",
+    "marks": 1
+  },
+  {
+    "chapter": 4,
+    "question": "What is a microprogram?",
+    "options": [
+      "A sequence of microinstructions that implements a machine instruction.",
+      "A program written in a low-level language.",
+      "A program written in a high-level language.",
+      "A program that controls the operation of a computer."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A sequence of microinstructions that implements a machine instruction.</strong> Microprogramming is a method of implementing the control unit of a CPU.",
+    "marks": 1
+  },
+  {
+    "chapter": 5,
+    "question": "What is a network interface card (NIC)?",
+    "options": [
+      "A hardware component that connects a computer to a computer network.",
+      "A type of software.",
+      "A type of protocol.",
+      "A type of cable."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A hardware component that connects a computer to a computer network.</strong> The NIC is responsible for sending and receiving data on the network.",
+    "marks": 1
+  },
+  {
+    "chapter": 5,
+    "question": "What is a modem?",
+    "options": [
+      "A device that modulates and demodulates signals to allow a computer to communicate over a telephone line.",
+      "A device that connects multiple devices on the same network.",
+      "A device that connects different networks.",
+      "A device that provides security."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A device that modulates and demodulates signals...</strong> A modem converts digital signals from a computer into analog signals that can be transmitted over a telephone line, and vice versa.",
+    "marks": 1
+  },
+  {
+    "chapter": 6,
+    "question": "What is a regular language?",
+    "options": [
+      "A language that can be recognized by a finite automaton.",
+      "A language that can be recognized by a pushdown automaton.",
+      "A language that can be recognized by a Turing machine.",
+      "A language that cannot be recognized by any automaton."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A language that can be recognized by a finite automaton.</strong> Regular languages are the simplest class of formal languages.",
+    "marks": 1
+  },
+  {
+    "chapter": 6,
+    "question": "What is a context-free language?",
+    "options": [
+      "A language that can be recognized by a pushdown automaton.",
+      "A language that can be recognized by a finite automaton.",
+      "A language that can be recognized by a Turing machine.",
+      "A language that cannot be recognized by any automaton."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A language that can be recognized by a pushdown automaton.</strong> Context-free languages are more powerful than regular languages.",
+    "marks": 1
+  },
+  {
+    "chapter": 7,
+    "question": "What is a tree data structure?",
+    "options": [
+      "A hierarchical data structure that consists of nodes connected by edges.",
+      "A linear data structure.",
+      "A graph data structure.",
+      "A stack data structure."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A hierarchical data structure that consists of nodes connected by edges.</strong> A tree has a root node, and each node has zero or more child nodes.",
+    "marks": 1
+  },
+  {
+    "chapter": 7,
+    "question": "What is a binary tree?",
+    "options": [
+      "A tree data structure in which each node has at most two children.",
+      "A tree data structure in which each node has at most one child.",
+      "A tree data structure in which each node has at most three children.",
+      "A tree data structure that is always balanced."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A tree data structure in which each node has at most two children.</strong> The children are referred to as the left child and the right child.",
+    "marks": 1
+  },
+  {
+    "chapter": 8,
+    "question": "What is a non-functional requirement?",
+    "options": [
+      "A requirement that defines a quality attribute of the system, such as performance, security, or usability.",
+      "A requirement that defines a specific behavior or function of the system.",
+      "A requirement that defines a constraint on the system.",
+      "A requirement that defines the user interface of the system."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A requirement that defines a quality attribute of the system...</strong> Non-functional requirements describe how the system should work.",
+    "marks": 1
+  },
+  {
+    "chapter": 8,
+    "question": "What is a constraint in software engineering?",
+    "options": [
+      "A restriction on the choices that can be made in the design and implementation of the system.",
+      "A requirement that defines a specific behavior or function of the system.",
+      "A requirement that defines a quality attribute of the system.",
+      "A requirement that defines the user interface of the system."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A restriction on the choices that can be made...</strong> Constraints can be related to technology, budget, schedule, or other factors.",
+    "marks": 1
+  },
+  {
+    "chapter": 9,
+    "question": "What is a search problem?",
+    "options": [
+      "A problem that can be solved by searching for a solution in a search space.",
+      "A problem that cannot be solved.",
+      "A problem that has only one solution.",
+      "A problem that has no solution."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A problem that can be solved by searching for a solution in a search space.</strong> A search problem is defined by a set of states, a set of actions, a transition model, a goal test, and a path cost.",
+    "marks": 1
+  },
+  {
+    "chapter": 9,
+    "question": "What is a state in a search problem?",
+    "options": [
+      "A possible configuration of the problem.",
+      "A solution to the problem.",
+      "An action that can be taken in the problem.",
+      "A goal of the problem."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A possible configuration of the problem.</strong> The search algorithm explores the state space to find a solution.",
+    "marks": 1
+  },
+  {
+    "chapter": 10,
+    "question": "What is a project stakeholder?",
+    "options": [
+      "Any person, group, or organization that has an interest in a project.",
+      "A member of the project team.",
+      "The project manager.",
+      "The customer."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) Any person, group, or organization that has an interest in a project.</strong> Stakeholders can be internal or external to the organization.",
+    "marks": 1
+  },
+  {
+    "chapter": 10,
+    "question": "What is a project communication plan?",
+    "options": [
+      "A document that outlines how communication will be managed on a project.",
+      "A list of all the stakeholders in a project.",
+      "A list of all the risks in a project.",
+      "A list of all the tasks in a project."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A document that outlines how communication will be managed on a project.</strong> The communication plan defines who will be communicated with, what will be communicated, when it will be communicated, and how it will be communicated.",
+    "marks": 1
+  },
+  {
+    "chapter": 1,
+    "question": "A 5H inductor has a current of 2A flowing through it. What is the energy stored in the inductor?",
+    "options": [
+      "10J",
+      "2.5J",
+      "20J",
+      "5J"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 10J</strong>. The energy stored in an inductor is given by the formula E = (1/2)LI^2, where L is the inductance and I is the current. So, E = (1/2) * 5H * (2A)^2 = 0.5 * 5 * 4 = 10J.",
+    "marks": 2
+  },
+  {
+    "chapter": 2,
+    "question": "What is the decimal equivalent of the binary number 10110.11?",
+    "options": [
+      "22.75",
+      "22.5",
+      "22.25",
+      "22.0"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 22.75</strong>. To convert a binary number to decimal, you multiply each digit by its corresponding power of 2 and add the results. For the integer part, 1*2^4 + 0*2^3 + 1*2^2 + 1*2^1 + 0*2^0 = 16 + 0 + 4 + 2 + 0 = 22. For the fractional part, 1*2^-1 + 1*2^-2 = 0.5 + 0.25 = 0.75. So, the decimal equivalent is 22.75.",
+    "marks": 2
+  },
+  {
+    "chapter": 3,
+    "question": "Write a C program to reverse a string.",
+    "options": [
+      "void reverse(char *str) { int i, j; char temp; for (i = 0, j = strlen(str) - 1; i < j; i++, j--) { temp = str[i]; str[i] = str[j]; str[j] = temp; } }",
+      "char* reverse(char *str) { return strrev(str); }",
+      "void reverse(char *str) { int i; for (i = strlen(str) - 1; i >= 0; i--) printf(\"%c\", str[i]); }",
+      "char* reverse(char *str) { char *rev = malloc(strlen(str) + 1); int i, j; for (i = strlen(str) - 1, j = 0; i >= 0; i--, j++) rev[j] = str[i]; rev[j] = '\0'; return rev; }"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) void reverse(char *str) { ... }</strong>. This function reverses the string in place by swapping the characters from the beginning and end of the string until the pointers meet in the middle.",
+    "marks": 2
+  },
+  {
+    "chapter": 4,
+    "question": "A machine has a 24-bit address bus and a 16-bit data bus. What is the maximum memory capacity and the maximum data that can be transferred at one time?",
+    "options": [
+      "16MB, 2 bytes",
+      "8MB, 2 bytes",
+      "16MB, 4 bytes",
+      "8MB, 4 bytes"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 16MB, 2 bytes</strong>. A 24-bit address bus can address 2^24 = 16,777,216 memory locations, which is 16MB. A 16-bit data bus can transfer 16 bits of data at one time, which is 2 bytes.",
+    "marks": 2
+  },
+  {
+    "chapter": 5,
+    "question": "What is the difference between a circuit-switched network and a packet-switched network?",
+    "options": [
+      "In a circuit-switched network, a dedicated communication path is established between two stations, while in a packet-switched network, data is sent in discrete units called packets.",
+      "In a packet-switched network, a dedicated communication path is established between two stations, while in a circuit-switched network, data is sent in discrete units called packets.",
+      "Circuit-switched networks are more efficient than packet-switched networks.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) In a circuit-switched network, a dedicated communication path is established...</strong> Circuit-switched networks are used for voice communication, while packet-switched networks are used for data communication.",
+    "marks": 2
+  },
+  {
+    "chapter": 6,
+    "question": "What is the difference between a compiler and an interpreter?",
+    "options": [
+      "A compiler translates the entire source code into machine code at once, while an interpreter translates the source code line by line.",
+      "An interpreter translates the entire source code into machine code at once, while a compiler translates the source code line by line.",
+      "A compiler is used for high-level languages, while an interpreter is used for low-level languages.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A compiler translates the entire source code into machine code at once...</strong> Compiled programs are generally faster than interpreted programs, but interpreted programs are more portable.",
+    "marks": 2
+  },
+  {
+    "chapter": 7,
+    "question": "What is the time complexity of inserting an element into a hash table?",
+    "options": [
+      "O(1) on average, O(n) in the worst case",
+      "O(n) on average, O(1) in the worst case",
+      "O(log n) on average, O(n) in the worst case",
+      "O(n) on average, O(log n) in the worst case"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) O(1) on average, O(n) in the worst case</strong>. On average, inserting an element into a hash table takes constant time. However, in the worst case, when there are many collisions, it can take linear time.",
+    "marks": 2
+  },
+  {
+    "chapter": 8,
+    "question": "What is the difference between smoke testing and sanity testing?",
+    "options": [
+      "Smoke testing is a preliminary testing to reveal simple failures severe enough to reject a prospective software release. Sanity testing is a brief run-through of the functionality of a computer program, system, or network, to assure that part of the system works correctly.",
+      "Sanity testing is a preliminary testing to reveal simple failures severe enough to reject a prospective software release. Smoke testing is a brief run-through of the functionality of a computer program, system, or network, to assure that part of the system works correctly.",
+      "Smoke testing is a type of white-box testing, while sanity testing is a type of black-box testing.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) Smoke testing is a preliminary testing...</strong> Smoke testing is often performed on a new build to see if it is stable enough for further testing. Sanity testing is often performed on a stable build to check if a particular functionality is working correctly.",
+    "marks": 2
+  },
+  {
+    "chapter": 9,
+    "question": "What is the difference between a breadth-first search and a uniform-cost search?",
+    "options": [
+      "Breadth-first search expands the shallowest unexpanded node, while uniform-cost search expands the node with the lowest path cost.",
+      "Uniform-cost search expands the shallowest unexpanded node, while breadth-first search expands the node with the lowest path cost.",
+      "Breadth-first search is always optimal, while uniform-cost search is not.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) Breadth-first search expands the shallowest unexpanded node...</strong> Breadth-first search is optimal when all step costs are equal. Uniform-cost search is optimal when the path cost is non-decreasing.",
+    "marks": 2
+  },
+  {
+    "chapter": 10,
+    "question": "A project has a critical path of 20 days. If a non-critical task on a path with 5 days of float is delayed by 3 days, what is the new project duration?",
+    "options": [
+      "20 days",
+      "23 days",
+      "17 days",
+      "25 days"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 20 days</strong>. The float (or slack) is the amount of time that a task can be delayed without affecting the project completion date. Since the task has 5 days of float and is only delayed by 3 days, the project duration is not affected.",
+    "marks": 2
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "chapter": 1,
+    "question": "In a purely inductive circuit, the current...",
+    "options": [
+      "lags the voltage by 90 degrees",
+      "leads the voltage by 90 degrees",
+      "is in phase with the voltage",
+      "is zero"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) lags the voltage by 90 degrees</strong>. In a purely inductive circuit, the current waveform is 90 degrees behind the voltage waveform.",
+    "marks": 1
+  },
+  {
+    "chapter": 1,
+    "question": "What is the unit of capacitance?",
+    "options": [
+      "Henry",
+      "Ohm",
+      "Farad",
+      "Watt"
+    ],
+    "answer": "c",
+    "explanation": "The correct answer is <strong>c) Farad</strong>. The farad (symbol: F) is the SI derived unit of electrical capacitance, the ability of a body to store an electrical charge.",
+    "marks": 1
+  },
+  {
+    "chapter": 2,
+    "question": "A J-K flip-flop is a refinement of which flip-flop?",
+    "options": [
+      "D flip-flop",
+      "T flip-flop",
+      "S-R flip-flop",
+      "Master-slave flip-flop"
+    ],
+    "answer": "c",
+    "explanation": "The correct answer is <strong>c) S-R flip-flop</strong>. The J-K flip-flop is an improvement on the S-R flip-flop as it eliminates the indeterminate state (when S=R=1).",
+    "marks": 1
+  },
+  {
+    "chapter": 2,
+    "question": "How many inputs and outputs does a full adder have?",
+    "options": [
+      "2 inputs, 2 outputs",
+      "3 inputs, 2 outputs",
+      "2 inputs, 3 outputs",
+      "3 inputs, 3 outputs"
+    ],
+    "answer": "b",
+    "explanation": "The correct answer is <strong>b) 3 inputs, 2 outputs</strong>. A full adder adds three one-bit binary numbers (two input bits and a carry-in bit) and outputs a sum and a carry-out.",
+    "marks": 1
+  },
+  {
+    "chapter": 3,
+    "question": "Which of the following is a derived data type in C?",
+    "options": [
+      "int",
+      "char",
+      "float",
+      "array"
+    ],
+    "answer": "d",
+    "explanation": "The correct answer is <strong>d) array</strong>. Derived data types are derived from fundamental data types. Examples include arrays, pointers, structures, and unions.",
+    "marks": 1
+  },
+  {
+    "chapter": 3,
+    "question": "What is the purpose of the `malloc()` function in C?",
+    "options": [
+      "To allocate a block of memory of a specified size.",
+      "To deallocate a block of memory.",
+      "To create a new variable.",
+      "To initialize a variable."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To allocate a block of memory of a specified size.</strong> The `malloc()` function allocates a block of memory of the specified size in bytes from the heap. It returns a pointer to the beginning of the block.",
+    "marks": 1
+  },
+  {
+    "chapter": 4,
+    "question": "What is the purpose of the program counter (PC) in a CPU?",
+    "options": [
+      "To store the address of the next instruction to be executed.",
+      "To store the current instruction.",
+      "To store the result of the last operation.",
+      "To store the status of the CPU."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To store the address of the next instruction to be executed.</strong> The program counter is a register in the CPU that holds the memory address of the next instruction to be fetched from memory.",
+    "marks": 1
+  },
+  {
+    "chapter": 4,
+    "question": "What is the main difference between SRAM and DRAM?",
+    "options": [
+      "SRAM is faster and more expensive than DRAM.",
+      "DRAM is faster and more expensive than SRAM.",
+      "SRAM is non-volatile, while DRAM is volatile.",
+      "DRAM is non-volatile, while SRAM is volatile."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) SRAM is faster and more expensive than DRAM.</strong> SRAM (Static RAM) uses flip-flops to store data and does not need to be refreshed. DRAM (Dynamic RAM) uses capacitors to store data and needs to be refreshed periodically. This makes SRAM faster but also more expensive and less dense than DRAM.",
+    "marks": 1
+  },
+  {
+    "chapter": 5,
+    "question": "What is the purpose of the ARP protocol?",
+    "options": [
+      "To resolve an IP address to a MAC address.",
+      "To resolve a MAC address to an IP address.",
+      "To route packets between networks.",
+      "To provide reliable data transfer."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To resolve an IP address to a MAC address.</strong> The Address Resolution Protocol (ARP) is used to find the MAC (Media Access Control) address of a device from its IP address. This is necessary for communication on a local network.",
+    "marks": 1
+  },
+  {
+    "chapter": 5,
+    "question": "What is a router?",
+    "options": [
+      "A network device that forwards data packets between computer networks.",
+      "A network device that connects devices on the same network.",
+      "A network device that modulates and demodulates signals.",
+      "A network device that provides security."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A network device that forwards data packets between computer networks.</strong> Routers operate at the Network Layer of the OSI model and use IP addresses to make routing decisions.",
+    "marks": 1
+  },
+  {
+    "chapter": 6,
+    "question": "What is the Chomsky hierarchy?",
+    "options": [
+      "A containment hierarchy of classes of formal grammars.",
+      "A hierarchy of programming languages.",
+      "A hierarchy of data structures.",
+      "A hierarchy of algorithms."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A containment hierarchy of classes of formal grammars.</strong> The Chomsky hierarchy describes a hierarchy of formal grammars, from Type-0 (unrestricted) to Type-3 (regular). Each type of grammar corresponds to a class of formal languages.",
+    "marks": 1
+  },
+  {
+    "chapter": 6,
+    "question": "What is a viewport in computer graphics?",
+    "options": [
+      "A rectangular area on the display device where the image is projected.",
+      "A rectangular area in the world coordinate system.",
+      "A 3D object.",
+      "A light source."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A rectangular area on the display device where the image is projected.</strong> The viewport is the window on the screen where the 2D or 3D scene is displayed.",
+    "marks": 1
+  },
+  {
+    "chapter": 7,
+    "question": "What is a graph data structure?",
+    "options": [
+      "A non-linear data structure consisting of nodes and edges.",
+      "A linear data structure.",
+      "A tree data structure.",
+      "A stack data structure."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A non-linear data structure consisting of nodes and edges.</strong> A graph consists of a set of vertices (or nodes) and a set of edges that connect pairs of vertices. Graphs are used to model relationships between objects.",
+    "marks": 1
+  },
+  {
+    "chapter": 7,
+    "question": "What is the difference between depth-first search (DFS) and breadth-first search (BFS)?",
+    "options": [
+      "DFS explores as far as possible along each branch before backtracking, while BFS explores all the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level.",
+      "BFS explores as far as possible along each branch before backtracking, while DFS explores all the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level.",
+      "DFS is used for trees, while BFS is used for graphs.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) DFS explores as far as possible along each branch before backtracking...</strong> DFS uses a stack to keep track of the nodes to visit, while BFS uses a queue.",
+    "marks": 1
+  },
+  {
+    "chapter": 8,
+    "question": "What is software testing?",
+    "options": [
+      "The process of evaluating and verifying that a software product or application does what it is supposed to do.",
+      "The process of writing code.",
+      "The process of designing software.",
+      "The process of deploying software."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) The process of evaluating and verifying that a software product or application does what it is supposed to do.</strong> The goal of software testing is to find defects and ensure that the software meets the specified requirements.",
+    "marks": 1
+  },
+  {
+    "chapter": 8,
+    "question": "What is black-box testing?",
+    "options": [
+      "A testing method in which the internal structure/design/implementation of the item being tested is not known to the tester.",
+      "A testing method in which the internal structure/design/implementation of the item being tested is known to the tester.",
+      "A type of integration testing.",
+      "A type of system testing."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A testing method in which the internal structure/design/implementation of the item being tested is not known to the tester.</strong> Black-box testing focuses on the functionality of the software from the user's perspective.",
+    "marks": 1
+  },
+  {
+    "chapter": 9,
+    "question": "What is deep learning?",
+    "options": [
+      "A subfield of machine learning based on artificial neural networks with multiple layers between the input and output layers.",
+      "A type of machine learning that uses labeled data.",
+      "A type of machine learning that uses unlabeled data.",
+      "A type of machine learning that learns from its own actions."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A subfield of machine learning based on artificial neural networks with multiple layers...</strong> Deep learning has been successful in areas like computer vision, natural language processing, and speech recognition.",
+    "marks": 1
+  },
+  {
+    "chapter": 9,
+    "question": "What is reinforcement learning?",
+    "options": [
+      "A type of machine learning where an agent learns to make decisions by taking actions in an environment to maximize a cumulative reward.",
+      "A type of machine learning that uses labeled data.",
+      "A type of machine learning that uses unlabeled data.",
+      "A type of machine learning that is used for classification."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) A type of machine learning where an agent learns to make decisions...</strong> Reinforcement learning is used in applications like robotics, game playing, and autonomous driving.",
+    "marks": 1
+  },
+  {
+    "chapter": 10,
+    "question": "What is the purpose of a work breakdown structure (WBS) in project management?",
+    "options": [
+      "To break down a project into smaller, more manageable components.",
+      "To create a project schedule.",
+      "To identify project risks.",
+      "To assign tasks to team members."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To break down a project into smaller, more manageable components.</strong> The WBS is a key project deliverable that organizes the team's work into manageable sections.",
+    "marks": 1
+  },
+  {
+    "chapter": 10,
+    "question": "What is scope creep in project management?",
+    "options": [
+      "The uncontrolled expansion to product or project scope without adjustments to time, cost, and resources.",
+      "A change in the project manager.",
+      "A change in the project team.",
+      "A change in the project budget."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) The uncontrolled expansion to product or project scope...</strong> Scope creep can be a major cause of project failure. It is important to have a clear scope definition and a change control process to manage it.",
+    "marks": 1
+  },
+  {
+    "chapter": 1,
+    "question": "A circuit contains a 10V source and a 5Ω resistor. What is the power dissipated by the resistor?",
+    "options": [
+      "20W",
+      "50W",
+      "2W",
+      "10W"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 20W</strong>. Power can be calculated using the formula P = V^2 / R. So, P = (10V)^2 / 5Ω = 100 / 5 = 20W.",
+    "marks": 2
+  },
+  {
+    "chapter": 2,
+    "question": "Convert the hexadecimal number A3 to binary.",
+    "options": [
+      "10100011",
+      "10110010",
+      "11000001",
+      "10010011"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 10100011</strong>. To convert from hexadecimal to binary, convert each hex digit to its 4-bit binary equivalent. A in hex is 10 in decimal, which is 1010 in binary. 3 in hex is 3 in decimal, which is 0011 in binary. Combining these gives 10100011.",
+    "marks": 2
+  },
+  {
+    "chapter": 3,
+    "question": "What will be the output of the following C code?\n#include <stdio.h>\nint main() {\n   int a = 5, b = 10;\n   printf(\"%d\", a+++b);\n   return 0;\n}",
+    "options": [
+      "15",
+      "16",
+      "14",
+      "Compiler Error"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 15</strong>. The expression `a+++b` is parsed as `(a++) + b`. The post-increment operator `++` has higher precedence than the addition operator `+`. So, the original value of `a` (5) is added to `b` (10), resulting in 15. After the expression is evaluated, `a` is incremented to 6.",
+    "marks": 2
+  },
+  {
+    "chapter": 4,
+    "question": "A memory has a capacity of 4K x 8. What is the total number of bits it can store?",
+    "options": [
+      "32768",
+      "4096",
+      "8192",
+      "16384"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 32768</strong>. 4K is equal to 4 * 1024 = 4096. The memory has 4096 locations, and each location can store 8 bits. So, the total number of bits is 4096 * 8 = 32768.",
+    "marks": 2
+  },
+  {
+    "chapter": 5,
+    "question": "A network has a subnet mask of 255.255.255.0. How many host addresses are available in this network?",
+    "options": [
+      "254",
+      "255",
+      "256",
+      "253"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 254</strong>. A subnet mask of 255.255.255.0 means that the first 24 bits are used for the network address, and the remaining 8 bits are used for the host address. The number of possible host addresses is 2^8 = 256. However, two addresses are reserved: the network address (all host bits are 0) and the broadcast address (all host bits are 1). So, the number of available host addresses is 256 - 2 = 254.",
+    "marks": 2
+  },
+  {
+    "chapter": 6,
+    "question": "Is the language L = {a^n b^n c^n | n >= 1} context-free?",
+    "options": [
+      "No",
+      "Yes",
+      "It depends on the value of n",
+      "It is a regular language"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) No</strong>. This language is a classic example of a language that is not context-free. It can be proven using the Pumping Lemma for context-free languages. This language is, however, a context-sensitive language.",
+    "marks": 2
+  },
+  {
+    "chapter": 7,
+    "question": "What is the postfix expression for the infix expression a + b * c?",
+    "options": [
+      "abc*+",
+      "ab+c*",
+      "abc+*",
+      "a+bc*"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) abc*+</strong>. In infix to postfix conversion, the operators are moved after their operands. Due to operator precedence, the multiplication `*` is performed before the addition `+`. So, `b * c` becomes `bc*`. Then, `a + (bc*)` becomes `abc*+`.",
+    "marks": 2
+  },
+  {
+    "chapter": 8,
+    "question": "What is the primary difference between integration testing and system testing?",
+    "options": [
+      "Integration testing focuses on testing the interfaces between modules, while system testing focuses on testing the complete and integrated system.",
+      "System testing is done by developers, while integration testing is done by testers.",
+      "Integration testing is a type of black-box testing, while system testing is a type of white-box testing.",
+      "There is no difference."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) Integration testing focuses on testing the interfaces between modules...</strong> Integration testing is performed after unit testing and before system testing. System testing is performed on the complete system to verify that it meets the specified requirements.",
+    "marks": 2
+  },
+  {
+    "chapter": 9,
+    "question": "In a game tree, what is the purpose of the minimax algorithm?",
+    "options": [
+      "To find the optimal move for a player, assuming that the opponent also plays optimally.",
+      "To find the shortest path to the goal.",
+      "To explore the game tree in a depth-first manner.",
+      "To prune the game tree."
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) To find the optimal move for a player...</strong> The minimax algorithm is a recursive algorithm that is used to choose an optimal move for a player assuming that the other player also plays optimally. It is used in two-player zero-sum games like tic-tac-toe, chess, and Go.",
+    "marks": 2
+  },
+  {
+    "chapter": 10,
+    "question": "A project has three tasks with durations of 5, 10, and 7 days. The tasks are sequential. What is the total duration of the project?",
+    "options": [
+      "22 days",
+      "15 days",
+      "17 days",
+      "12 days"
+    ],
+    "answer": "a",
+    "explanation": "The correct answer is <strong>a) 22 days</strong>. Since the tasks are sequential, the total duration is the sum of the individual task durations: 5 + 10 + 7 = 22 days.",
+    "marks": 2
+  }
+]
