@@ -10,7 +10,7 @@
   /* Light theme */
   --primary-color: #3b82f6;
   --primary-hover: #2563eb;
-  --primary-light: #dbeafe;
+  --primary-light: #eff6ff;
   --secondary-color: #64748b;
   --success-color: #10b981;
   --error-color: #ef4444;
@@ -20,8 +20,8 @@
   --bg-secondary: #f8fafc;
   --bg-tertiary: #f1f5f9;
   
-  --text-primary: #1e293b;
-  --text-secondary: #64748b;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
   --text-muted: #94a3b8;
   
   --border-color: #e2e8f0;
@@ -50,6 +50,8 @@
     
     --border-color: #334155;
     --border-hover: #475569;
+    
+    --primary-light: #1e3a8a;
   }
 }
 

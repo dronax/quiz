@@ -160,6 +160,7 @@
 
     <div class="question-card card">
       <div class="question-header">
+        <div class="question-number">Question {currentQuestionIndex + 1}</div>
         <h2 class="question-text">{questions[currentQuestionIndex].question}</h2>
         <div class="question-meta">
           <span class="chapter-badge">Chapter {questions[currentQuestionIndex].chapter}</span>
@@ -168,14 +169,24 @@
       </div>
       
       <div class="options-container">
+        <h3 class="options-title">Choose your answer:</h3>
         {#each questions[currentQuestionIndex].options as option, i}
           <button
             class="option-btn {selectedAnswer === String.fromCharCode(97 + i) ? 'selected' : ''}"
             on:click={() => selectAnswer(String.fromCharCode(97 + i))}
             disabled={showExplanation}
           >
-            <span class="option-letter">{String.fromCharCode(65 + i)}</span>
-            <span class="option-text">{option}</span>
+            <div class="option-letter">{String.fromCharCode(65 + i)}</div>
+            <div class="option-content">
+              <span class="option-text">{option}</span>
+            </div>
+            <div class="option-indicator">
+              {#if selectedAnswer === String.fromCharCode(97 + i)}
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                </svg>
+              {/if}
+            </div>
           </button>
         {/each}
       </div>
@@ -197,13 +208,13 @@
           on:click={submitAnswer} 
           disabled={!selectedAnswer || showExplanation}
         >
-          Submit Answer
+          {showExplanation ? 'Answer Submitted' : 'Submit Answer'}
         </button>
 
         <div class="nav-buttons">
           {#if showExplanation}
             <button class="btn btn-success" on:click={goToNextQuestion}>
-              {currentQuestionIndex < questions.length - 1 ? 'Next' : 'Finish'}
+              {currentQuestionIndex < questions.length - 1 ? 'Next Question' : 'Finish Quiz'}
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M8.59 16.59L13.17 12L8.59 7.41L10 6l6 6-6 6z"/>
               </svg>
@@ -235,7 +246,7 @@
 <style>
   .quiz-container {
     width: 100%;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 1rem;
   }
@@ -272,6 +283,7 @@
     color: var(--text-secondary);
     margin-bottom: 0.5rem;
     display: block;
+    font-weight: 500;
   }
 
   .progress-bar {
@@ -322,7 +334,7 @@
 
   .time {
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--text-primary);
     font-family: 'Courier New', monospace;
   }
@@ -330,22 +342,37 @@
   .timer-label {
     font-size: 0.75rem;
     color: var(--text-secondary);
+    font-weight: 500;
   }
 
   .question-card {
     padding: 2.5rem;
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
   }
 
   .question-header {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 1.5rem;
+  }
+
+  .question-number {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.75rem;
   }
 
   .question-text {
-    font-size: 1.25rem;
+    font-size: 1.375rem;
     font-weight: 600;
     color: var(--text-primary);
     line-height: 1.6;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
+    text-align: left;
   }
 
   .question-meta {
@@ -356,10 +383,12 @@
 
   .chapter-badge,
   .marks-badge {
-    padding: 0.25rem 0.75rem;
+    padding: 0.375rem 0.875rem;
     border-radius: var(--radius-sm);
     font-size: 0.75rem;
-    font-weight: 500;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
   }
 
   .chapter-badge {
@@ -373,17 +402,23 @@
   }
 
   .options-container {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .options-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+    text-align: left;
   }
 
   .option-btn {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    padding: 1.25rem;
+    gap: 1.25rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
     border: 2px solid var(--border-color);
     border-radius: var(--radius-lg);
     background: var(--bg-primary);
@@ -391,18 +426,21 @@
     transition: all 0.2s ease-in-out;
     text-align: left;
     width: 100%;
+    position: relative;
   }
 
   .option-btn:hover:not(:disabled) {
     border-color: var(--primary-color);
     background: var(--primary-light);
     transform: translateX(4px);
+    box-shadow: var(--shadow-md);
   }
 
   .option-btn.selected {
     border-color: var(--primary-color);
     background: var(--primary-color);
     color: white;
+    box-shadow: var(--shadow-lg);
   }
 
   .option-btn:disabled {
@@ -414,13 +452,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background: var(--bg-tertiary);
-    font-weight: 600;
-    font-size: 0.875rem;
+    font-weight: 700;
+    font-size: 1rem;
     flex-shrink: 0;
+    color: var(--text-primary);
   }
 
   .option-btn.selected .option-letter {
@@ -428,10 +467,27 @@
     color: white;
   }
 
-  .option-text {
+  .option-content {
     flex: 1;
-    font-size: 1rem;
-    line-height: 1.5;
+    min-width: 0;
+  }
+
+  .option-text {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: inherit;
+    font-weight: 500;
+    display: block;
+    word-wrap: break-word;
+  }
+
+  .option-indicator {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
   }
 
   .question-actions {
@@ -439,45 +495,54 @@
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid var(--border-color);
   }
 
   .nav-buttons {
-    min-width: 100px;
+    min-width: 120px;
   }
 
   .submit-btn {
     flex: 1;
     max-width: 200px;
+    font-weight: 600;
   }
 
   .explanation-card {
     margin-top: 2rem;
-    padding: 1.5rem;
+    padding: 2rem;
     background: var(--bg-secondary);
     border-radius: var(--radius-lg);
-    border: 1px solid var(--border-color);
+    border: 2px solid var(--border-color);
   }
 
   .explanation-header {
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
   }
 
   .explanation-icon {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   .explanation-header h3 {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     font-weight: 600;
     color: var(--text-primary);
   }
 
   .explanation-content {
-    color: var(--text-secondary);
-    line-height: 1.6;
+    color: var(--text-primary);
+    line-height: 1.7;
+    font-size: 1rem;
+  }
+
+  .explanation-content :global(strong) {
+    color: var(--primary-color);
+    font-weight: 600;
   }
 
   .quiz-results {
@@ -615,7 +680,16 @@
     }
 
     .question-text {
-      font-size: 1.125rem;
+      font-size: 1.25rem;
+    }
+
+    .option-btn {
+      padding: 1.25rem;
+      gap: 1rem;
+    }
+
+    .option-text {
+      font-size: 1rem;
     }
 
     .question-actions {
