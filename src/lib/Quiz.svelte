@@ -464,23 +464,23 @@
   }
 
   .option-btn.selected {
-    border-color: var(--primary-color);
-    background: var(--primary-color);
-    color: white;
+    border-color: var(--selected-border);
+    background: var(--selected-bg);
+    color: var(--selected-color);
     box-shadow: var(--shadow-lg);
   }
 
   .option-btn.correct {
-    border-color: var(--success-color);
-    background: var(--success-color);
-    color: white;
-    box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
+    border-color: var(--correct-border);
+    background: var(--correct-bg);
+    color: var(--correct-color);
+    box-shadow: 0 4px 12px rgba(22, 163, 74, 0.3);
   }
 
   .option-btn.incorrect {
-    border-color: var(--error-color);
-    background: var(--error-color);
-    color: white;
+    border-color: var(--incorrect-border);
+    background: var(--incorrect-bg);
+    color: var(--incorrect-color);
     box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
   }
 
@@ -501,6 +501,7 @@
     flex-shrink: 0;
     color: var(--text-primary);
     border: 2px solid var(--border-color);
+    transition: all 0.2s ease-in-out;
   }
 
   .option-btn.selected .option-letter,
@@ -522,13 +523,7 @@
     font-weight: 500;
     display: block;
     word-wrap: break-word;
-    color: var(--text-primary);
-  }
-
-  .option-btn.selected .option-text,
-  .option-btn.correct .option-text,
-  .option-btn.incorrect .option-text {
-    color: white;
+    color: inherit;
   }
 
   .option-indicator {

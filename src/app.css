@@ -10,9 +10,9 @@
   /* Light theme - High contrast colors */
   --primary-color: #2563eb;
   --primary-hover: #1d4ed8;
-  --primary-light: #eff6ff;
+  --primary-light: #dbeafe;
   --secondary-color: #64748b;
-  --success-color: #059669;
+  --success-color: #16a34a;
   --error-color: #dc2626;
   --warning-color: #d97706;
   
@@ -27,6 +27,20 @@
   
   --border-color: #d1d5db;
   --border-hover: #9ca3af;
+  
+  /* Selection colors */
+  --selected-bg: #2563eb;
+  --selected-color: #ffffff;
+  --selected-border: #1d4ed8;
+  
+  /* Answer feedback colors */
+  --correct-bg: #16a34a;
+  --correct-color: #ffffff;
+  --correct-border: #15803d;
+  
+  --incorrect-bg: #dc2626;
+  --incorrect-color: #ffffff;
+  --incorrect-border: #b91c1c;
   
   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
@@ -54,6 +68,20 @@
     --border-hover: #6b7280;
     
     --primary-light: #1e3a8a;
+    
+    /* Dark mode selection colors */
+    --selected-bg: #3b82f6;
+    --selected-color: #ffffff;
+    --selected-border: #2563eb;
+    
+    /* Dark mode answer feedback colors */
+    --correct-bg: #22c55e;
+    --correct-color: #ffffff;
+    --correct-border: #16a34a;
+    
+    --incorrect-bg: #ef4444;
+    --incorrect-color: #ffffff;
+    --incorrect-border: #dc2626;
   }
 }
 
@@ -131,7 +159,7 @@ body {
 }
 
 .btn-success:hover:not(:disabled) {
-  background: #047857;
+  background: #15803d;
   transform: translateY(-1px);
   box-shadow: var(--shadow-md);
 }
