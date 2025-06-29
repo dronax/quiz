@@ -89,10 +89,11 @@
 
   function getOptionClass(optionLetter) {
     if (!showExplanation) {
+      // Before submission - show blue for selected option
       return selectedAnswer === optionLetter ? 'selected' : '';
     }
     
-    // After submission, show correct/incorrect colors
+    // After submission - show green for correct, red for incorrect
     if (optionLetter === correctAnswer) {
       return 'correct';
     } else if (selectedAnswer === optionLetter && optionLetter !== correctAnswer) {
@@ -454,22 +455,27 @@
     text-align: left;
     width: 100%;
     position: relative;
+    color: var(--text-primary);
   }
 
+  /* Hover state - Blue background */
   .option-btn:hover:not(:disabled) {
-    border-color: var(--primary-color);
-    background: var(--primary-light);
+    border-color: var(--option-hover-border);
+    background: var(--option-hover-bg);
+    color: var(--option-hover-color);
     transform: translateX(4px);
     box-shadow: var(--shadow-md);
   }
 
+  /* Selected state (before submission) - Blue background */
   .option-btn.selected {
-    border-color: var(--selected-border);
-    background: var(--selected-bg);
-    color: var(--selected-color);
+    border-color: var(--option-hover-border);
+    background: var(--option-hover-bg);
+    color: var(--option-hover-color);
     box-shadow: var(--shadow-lg);
   }
 
+  /* Correct answer (after submission) - Green background */
   .option-btn.correct {
     border-color: var(--correct-border);
     background: var(--correct-bg);
@@ -477,6 +483,7 @@
     box-shadow: 0 4px 12px rgba(22, 163, 74, 0.3);
   }
 
+  /* Incorrect answer (after submission) - Red background */
   .option-btn.incorrect {
     border-color: var(--incorrect-border);
     background: var(--incorrect-bg);
@@ -504,6 +511,8 @@
     transition: all 0.2s ease-in-out;
   }
 
+  /* Option letter styling for hover, selected, correct, and incorrect states */
+  .option-btn:hover:not(:disabled) .option-letter,
   .option-btn.selected .option-letter,
   .option-btn.correct .option-letter,
   .option-btn.incorrect .option-letter {
@@ -523,7 +532,6 @@
     font-weight: 500;
     display: block;
     word-wrap: break-word;
-    color: inherit;
   }
 
   .option-indicator {

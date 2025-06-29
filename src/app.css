@@ -28,12 +28,12 @@
   --border-color: #d1d5db;
   --border-hover: #9ca3af;
   
-  /* Selection colors */
-  --selected-bg: #2563eb;
-  --selected-color: #ffffff;
-  --selected-border: #1d4ed8;
+  /* Option selection colors - Blue for selection/hover */
+  --option-hover-bg: #2563eb;
+  --option-hover-color: #ffffff;
+  --option-hover-border: #1d4ed8;
   
-  /* Answer feedback colors */
+  /* Answer feedback colors - Green for correct, Red for incorrect */
   --correct-bg: #16a34a;
   --correct-color: #ffffff;
   --correct-border: #15803d;
@@ -69,10 +69,10 @@
     
     --primary-light: #1e3a8a;
     
-    /* Dark mode selection colors */
-    --selected-bg: #3b82f6;
-    --selected-color: #ffffff;
-    --selected-border: #2563eb;
+    /* Dark mode option colors */
+    --option-hover-bg: #3b82f6;
+    --option-hover-color: #ffffff;
+    --option-hover-border: #2563eb;
     
     /* Dark mode answer feedback colors */
     --correct-bg: #22c55e;
